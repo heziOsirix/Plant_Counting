@@ -25,8 +25,7 @@ import sys
 import numpy as np
 #import matplotlib.pyplot as plt
 
-sys.path.append(os.path.abspath("../Utility"))
-import general_IO as gIO
+from ..Utility import general_IO as gIO
 
 # =============================================================================
 # Specific Function Definition

@@ -42,8 +42,10 @@ class CRAD_Voting:
         for k,v in self.dict_angles.items():
             self.angles_sort.append([v,k])
         self.angles_sort.sort()
-        
-        self.best_angle_min = self.angles_sort[-1][1]
+        best_angle = self.angles_sort[-1][1]
+        if best_angle > 90:
+            best_angle = (180 - best_angle) * -1
+        self.best_angle_min = best_angle
     
     def Correct_AD_based_on_best_angle(self):
         print("Correcting LDs based on best angle")

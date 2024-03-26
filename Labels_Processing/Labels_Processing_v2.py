@@ -19,7 +19,7 @@ from PIL import Image
 import json
 
 os.chdir("../Utility")
-import general_IO as gIO
+from ..Utility import general_IO as gIO
 
 viewport_annotation_id = "c0b4a22c-0420-4d9f-bafc-954b8f7b35a7"
 

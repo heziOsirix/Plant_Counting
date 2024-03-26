@@ -9,8 +9,7 @@ import sys
 from sklearn.cluster import KMeans
 from scipy.stats import ttest_ind
 
-sys.path.append(os.path.abspath("../Utility"))
-import general_IO as gIO
+from ..Utility import general_IO as gIO
 
 # =============================================================================
 # Utility Functions
@@ -833,7 +832,23 @@ class Agents_Director(object):
         
         if (p_value < 0.0001):
             
-            index_small_grp = list(np.array((_indeces_grp0,_indeces_grp1))[np.where(means_grp == min(means_grp))][0][0])
+            #index_small_grp = list(np.array((_indeces_grp0,_indeces_grp1))[np.where(means_grp == min(means_grp))][0][0])
+            # Find the indices where the elements of means_grp are equal to the minimum value in means_grp
+            min_indices = np.where(means_grp == min(means_grp))
+
+
+            print("_indeces_grp0 is: " )
+            print( _indeces_grp0)
+            print("_indeces_grp1 is: ")
+            print(_indeces_grp1)
+            # Create a 2D NumPy array from _indeces_grp0 and _indeces_grp1
+            #indices_array = np.array((_indeces_grp0, _indeces_grp1))
+            indices_array = np.vstack((_indeces_grp0[0], _indeces_grp1[0]))
+            # Select the rows from the indices_array based on the indices found above
+            selected_indices = indices_array[min_indices]
+
+            # Convert the resulting NumPy array into a Python list
+            index_small_grp = list(selected_indices[0][0])
             print(index_small_grp)
             
             nb_indeces = len(index_small_grp)
@@ -1557,6 +1572,10 @@ class MetaSimulation(object):
         
         for _data in [self.data_input_OTSU,
                       self.data_input_PLANT_FT_PRED]:
+            print("Data: ")
+            print(len(_data))
+            print("nb_images: ")
+            print(self.nb_images)
             assert len(_data) == self.nb_images
     
         if (self.data_adjusted_position_files != None):
@@ -1708,7 +1727,7 @@ class MetaSimulation(object):
                                         self.data_adjusted_position_files)
                 MAS_Simulation.Initialize_AD()
                 
-                MAS_Simulation.Perform_Simulation(self.simulation_step,
+                MAS_Simulation.Perform_Search_Simulation(self.simulation_step,
                                                   self.coerced_X,
                                                   self.coerced_Y,
                                                   self.analyse_and_remove_Rows,
@@ -1730,6 +1749,7 @@ class MetaSimulation(object):
         self.Save_RALs_Infos()
         self.Save_RALs_Nested_Positions()
         self.Save_Log()
+        print("ALL SAVED")
 
     def Get_Simulation_Results(self, _MAS_Simulation):
         
