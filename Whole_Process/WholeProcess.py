@@ -36,17 +36,17 @@ def CompleteProcess(_path_input_rgb_img, _path_output_root,
                       _bsas_threshold)
     
     
-    # FA.All_Fourier_Analysis(_path_output_root,
-    #                          _session,
-    #                          _bin_div_X, _bin_div_Y)
+    FA.All_Fourier_Analysis(_path_output_root,
+                             _session,
+                             _bin_div_X, _bin_div_Y)
     
     
-    # MIS.All_Simulations(_path_input_rgb_img,
-    #                 _path_output_root,
-    #                 _labelled_images,
-    #                 _session,
-    #                 _RAs_group_size, _RAs_group_steps, _Simulation_steps,
-    #                 _RALs_fuse_factor, _RALs_fill_factor)
+    MIS.All_Simulations(_path_input_rgb_img,
+                    _path_output_root,
+                    _labelled_images,
+                    _session,
+                    _RAs_group_size, _RAs_group_steps, _Simulation_steps,
+                    _RALs_fuse_factor, _RALs_fill_factor)
 
 if (__name__=="__main__"):
 # ========================== FOR NON-LABELLED IMAGES ======================== #
@@ -57,8 +57,8 @@ if (__name__=="__main__"):
                     _labelled_images = False,
                     
                     _make_unique_folder_per_session=False, _session=1,
-                    _do_Otsu=True, _do_AD=True,
-                    _save_AD_score_images=True, _save_BSAS_images=True,
+                    _do_Otsu=False, _do_AD=False,
+                    _save_AD_score_images=False, _save_BSAS_images=False,
                     _bsas_threshold=1,
                     
                     _bin_div_X=2, _bin_div_Y=4,

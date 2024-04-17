@@ -124,7 +124,8 @@ def Search_Periodic_Peaks(_histogram, _period, _bin_div):
 def Extract_Y_Coord_of_Crop_Rows(_crop_rows,
                                  _x_data_size, _x_period,
                                  _x_coord, _y_coord):
-    
+    if len(_crop_rows) == 0:
+        return []
     window_half_width = int(0.05*_x_period)
     _x_coord_sort_indeces = np.argsort(_x_coord)
     _x_coord_sorted = _x_coord[_x_coord_sort_indeces]
@@ -204,7 +205,7 @@ def All_Fourier_Analysis(_path_input_output,
     path_output_FT_predictions = path_output_root+"/Plant_FT_Predictions"
     gIO.check_make_directory(path_output_FT_predictions)
     
-    subset_size = 4
+    subset_size = 99999
     
 ################## Import Data
     data_bsas_dir0 = gIO.multi_read(path_input_bsas_dir0,
@@ -256,7 +257,10 @@ def All_Fourier_Analysis(_path_input_output,
         
         predicted_plants_Y_per_crop_rows = []
         print("all_period_per_CR:", all_period_per_CR)
-        signal_period = int(np.median(all_period_per_CR))
+        if len(all_period_per_CR) == 0:#when the image doesn't have crops, it crashes
+            signal_period = 0
+        else:
+            signal_period = int(np.median(all_period_per_CR))
         #signal_period = int(min(all_period_per_CR))
         print("signal_period:", signal_period)
         for j in range(nb_rows):

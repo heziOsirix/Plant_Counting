@@ -5,6 +5,7 @@ import sys
 from .. import MAS
 
 from ..Utility import general_IO as gIO
+from . import MAS
 
 def All_Simulations(_path_input_rgb_img, _path_PreTreatment_and_FA,
                     _labelled_images = False,
@@ -60,7 +61,7 @@ def All_Simulations(_path_input_rgb_img, _path_PreTreatment_and_FA,
     # =============================================================================
     # Meta Simulation Definition
     # =============================================================================
-    
+
     MetaSimulation = MAS.MetaSimulation(meta_simu_name,
                                         path_output,
                                         names_input_raw,

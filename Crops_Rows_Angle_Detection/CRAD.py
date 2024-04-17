@@ -109,27 +109,26 @@ class CRAD:
         print("looking for the angle")
         self.angle_min = 0
         score_min = 1
-                
+                    
         self.auto_angle_score_plot = []
-        angles = np.arange(0,180,1)
+        angles = np.arange(0, 180, 1)
         for _a in angles:
             theta = np.radians(_a)
             XY_rot = np.dot(self.coord_map, self.rotation_matrix(theta))
-            
+                
             X_rot_ceil = np.ceil(XY_rot[:,0])
             X_rot_ceil_unique = np.unique(X_rot_ceil)
             
-            score = np.shape(X_rot_ceil_unique)[0]/abs(np.max(X_rot_ceil)-np.min(X_rot_ceil)+1)
-            self.auto_angle_score_plot += [score]
+            if len(X_rot_ceil_unique) == 0:  # Check if X_rot_ceil_unique is empty
+                score = 0  # or any other default value
+            else:
+                score = len(X_rot_ceil_unique) / abs(np.max(X_rot_ceil) - np.min(X_rot_ceil) + 1)
             
-            if (score < score_min):
+            self.auto_angle_score_plot.append(score)
+                
+            if score < score_min:
                 score_min = score
                 self.angle_min = _a
-        
-        self.angle_min_rotation_matrix = self.rotation_matrix(np.deg2rad(self.angle_min))
-        
-        self.coord_centroid_map_Rot = np.dot(self.coord_map,
-                                             self.angle_min_rotation_matrix)
     
     def rotation_matrix(self, _theta):
         """

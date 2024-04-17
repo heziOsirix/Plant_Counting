@@ -917,7 +917,8 @@ class Agents_Director(object):
         for _RowA in self.RowAs:#[10:11]:
             SumNbs += _RowA.InterPlant_Y_Hist_Array[0]
             SumBins += _RowA.InterPlant_Y_Hist_Array[1]
-        SumBins /= len(self.RowAs)#[10:11])
+        if len(self.RowAs) != 0:
+            SumBins /= len(self.RowAs)#[10:11])
         
         print("max of SumNbs", SumNbs, np.max(SumNbs))
         print("index of max for SumBins", np.where(SumNbs == np.max(SumNbs)))
