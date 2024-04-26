@@ -26,14 +26,16 @@ def Hist(img, th_black):
     Cette fonction génère l'histogramme d'une image.
     """
     row, col = img.shape
-    y = np.zeros(256)
-    y_sol = np.zeros(256)
-    for i in range(0,row):
-        for j in range(0,col):#on parcourt l'image
-            if img[i,j]>th_black: #si le pixel n'est pas dans la partie de l'histogramme qu'on ignore (ie <th_black)
-                y[img[i,j]] += 1 #on compte un pixel de plus d'une couleur donnée
-            else:
-                y_sol[img[i,j]] += 1
+    max_pixel_value = np.max(img)  # Find the maximum pixel value in the image
+    y = np.zeros(max_pixel_value + 1)  # Adjust the size of the histogram array
+    #y_sol = np.zeros(max_pixel_value + 1)
+    
+    for i in range(row):
+        for j in range(col):  # On parcourt l'image
+            if img[i, j] > th_black:  # Si le pixel n'est pas dans la partie de l'histogramme qu'on ignore (ie <th_black)
+                y[img[i, j]] += 1  # On compte un pixel de plus d'une couleur donnée
+            # else:
+            #     y_sol[img[i, j]] += 1
 
     return y
 
@@ -133,12 +135,14 @@ def get_optimal_threshold(lambda_results):
     """
     Retourne le seuil de segmentation maximisant le critère lambda
     """
+    try:
+        max_lambda = max(lambda_results.values())
+        optimal_threshold = [k for k, v in lambda_results.items() if v == max_lambda]
+        print ('optimal threshold: ', optimal_threshold[0])
 
-    max_lambda = max(lambda_results.values())
-    optimal_threshold = [k for k, v in lambda_results.items() if v == max_lambda]
-    print ('optimal threshold: ', optimal_threshold[0])
-
-    return optimal_threshold[0]
+        return optimal_threshold[0]
+    except:
+        return 0
 
 
 def segmentation_img(img, th_black, th_crops):

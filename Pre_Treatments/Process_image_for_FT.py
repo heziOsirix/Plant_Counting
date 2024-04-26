@@ -47,22 +47,26 @@ variables the user can change:
 import os
 import importlib
 import sys
+import shutil
+from pathlib import Path
+from PIL import Image
 
-sys.path.append(os.path.abspath("../Utility"))
+abs_path = os.path.dirname(__file__)
+
+sys.path.append(os.path.join(abs_path, '../Utility'))
 import general_IO as gIO
 
-sys.path.append(os.path.abspath("../Segmentation_Otsu"))
+sys.path.append(os.path.join(abs_path,"../Segmentation_Otsu"))
 import data
 
-sys.path.append(os.path.abspath("../BSAS"))
+sys.path.append(os.path.join(abs_path,"../BSAS"))
 import bsas
 
-sys.path.append(os.path.abspath("../Crops_Rows_Angle_Detection"))
+sys.path.append(os.path.join(abs_path,"../Crops_Rows_Angle_Detection"))
 import CRAD
 
-sys.path.append(os.path.abspath("../Labels_Processing"))
+sys.path.append(os.path.join(abs_path,"../Labels_Processing"))
 import Labels_Processing_v2 as LblP
-    
 
 def All_Pre_Treatment(_path_input_rgb_img, _path_output_root,
                       _path_position_files = None, _rows_real_angle = 0,
@@ -97,10 +101,22 @@ def All_Pre_Treatment(_path_input_rgb_img, _path_output_root,
     gIO.check_make_directory(path_output_Otsu_R)
     if _do_Otsu:
         for i in range(nb_images):
-            print()
-            print ("Processing Otsu mask for image", list_images[i], "{0}/{1}".format(i+1, nb_images))
-            image = data.Data(list_images[i], _path_input_rgb_img)
-            image.save("mask_Otsu", "OTSU_"+list_images[i], path = path_output_Otsu)
+            try:
+                print()
+                print ("Processing Otsu mask for image", list_images[i], "{0}/{1}".format(i+1, nb_images))
+                image = data.Data(list_images[i], _path_input_rgb_img)
+                image.save("mask_Otsu", "OTSU_"+list_images[i], path = path_output_Otsu)
+            except:
+                print("There was an error processing image" , list_images[i], "{0}/{1}".format(i+1, nb_images))
+                #save the image as it was originally, for now, it looks like it is throwing an exception if the image is 100% black
+                #The algorithm will expect a jpg image so we copy the original as jpg
+                #temp_img = Image.open(os.path.join(_path_input_rgb_img, list_images[i]))
+                #temp_img.save("mask_Otsu", "OTSU_"+list_images[i], path = path_output_Otsu)
+                src = Path(_path_input_rgb_img) / list_images[i]
+                tiff_extension = list_images[i].replace(".tif", ".jpg")
+                file_name = f"OTSU_{tiff_extension}"
+                dst = Path(path_output_Otsu) / file_name
+                shutil.copyfile(src, dst)
     
 # =============================================================================
 # Angle Detection (AD)
@@ -130,24 +146,26 @@ def All_Pre_Treatment(_path_input_rgb_img, _path_output_root,
     if _do_AD:
         AD_object_list = []
         for i in range(nb_images):
-            print()
-            print ("Angle Detection process for image", list_images[i], "{0}/{1}".format(i+1, nb_images))
-            
-            _AD = CRAD.CRAD(
-                           list_images_id[i],
-                           path_output_Otsu,
-                           path_output_Otsu_R,
-                           path_output_ADp_angle_search_score,
-                           path_output_ADp_Images)
-            
-            AD_object_list.append(_AD)
-            
-            _AD.get_coord_map()
-            
-            _AD.auto_angle2()
-            
-            if (_save_AD_score_images):
-                _AD.plot_auto_angle_score(_save = True)
+                print()
+                print ("Angle Detection process for image", list_images[i], "{0}/{1}".format(i+1, nb_images))
+                #try:
+                _AD = CRAD.CRAD(
+                            list_images_id[i],
+                            path_output_Otsu,
+                            path_output_Otsu_R,
+                            path_output_ADp_angle_search_score,
+                            path_output_ADp_Images)
+                
+                AD_object_list.append(_AD)
+                
+                _AD.get_coord_map()
+                
+                _AD.auto_angle2()
+                
+                if (_save_AD_score_images):
+                    _AD.plot_auto_angle_score(_save = True)
+                # except:
+                #     print("Could not detect angle for image "),list_images[i], "{0}/{1}".format(i+1, nb_images)
         
         
         AD_voting = CRAD.CRAD_Voting(AD_object_list)
@@ -194,21 +212,21 @@ if (__name__=="__main__"):
 
 # ========================== FOR NON-LABELLED IMAGES ======================== #
 # =============================================================================
-#   All_Pre_Treatment(_path_input_rgb_img="../Tutorial/Data/Non-Labelled/Set1",
-#                   _path_output_root="../Tutorial/Output_General/Set1",
-#                   _path_position_files=None,
-#                   _make_unique_folder_per_session=False, _session=1,
-#                   _do_Otsu=True, _do_AD=True,
-#                   _save_AD_score_images=False, _save_BSAS_images=False,
-#                   _bsas_threshold=1)
+  All_Pre_Treatment(_path_input_rgb_img=R"C:\Users\Hezid\Desktop\test",
+                  _path_output_root=R"C:\Users\Hezid\Desktop\test\output",
+                  _path_position_files=None,
+                  _make_unique_folder_per_session=False, _session=1,
+                  _do_Otsu=True, _do_AD=True,
+                  _save_AD_score_images=False, _save_BSAS_images=False,
+                  _bsas_threshold=1)
 # =============================================================================
     
-# ========================== FOR LABELLED IMAGES ============================ #
-    All_Pre_Treatment(_path_input_rgb_img="../Tutorial/Data/Labelled/Set3/Processed/Field_0/GrowthStage_0/RGB",
-                      _path_output_root="../Tutorial/Output_General/Set3",
-                      _path_position_files="../Tutorial/Data/Labelled/Set3/Processed/Field_0/GrowthStage_0/Dataset",
-                      _rows_real_angle=80,
-                      _make_unique_folder_per_session=False, _session=1,
-                      _do_Otsu=True, _do_AD=True,
-                      _save_AD_score_images=False, _save_BSAS_images=False,
-                      _bsas_threshold=1)
+# # ========================== FOR LABELLED IMAGES ============================ #
+#     All_Pre_Treatment(_path_input_rgb_img="../Tutorial/Data/Labelled/Set3/Processed/Field_0/GrowthStage_0/RGB",
+#                       _path_output_root="../Tutorial/Output_General/Set3",
+#                       _path_position_files="../Tutorial/Data/Labelled/Set3/Processed/Field_0/GrowthStage_0/Dataset",
+#                       _rows_real_angle=80,
+#                       _make_unique_folder_per_session=False, _session=1,
+#                       _do_Otsu=True, _do_AD=True,
+#                       _save_AD_score_images=False, _save_BSAS_images=False,
+#                       _bsas_threshold=1)
