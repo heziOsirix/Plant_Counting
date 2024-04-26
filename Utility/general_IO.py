@@ -370,3 +370,5 @@ def read_json(_path, _file_name):
     res = json.load(file)
     file.close()
     return res
+
+#print(read_json('C:/Users/Hezid/Documents/3rd Party/Plant_Counting/Tutorial/Output_General/Set6/Output_Meta_Simulation/Session_1', 'MetaSimulationResults_Session_1_cX_REE.json'))

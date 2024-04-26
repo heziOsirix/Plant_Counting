@@ -5,8 +5,7 @@ import sys
 
 import MAS
 
-sys.path.append(os.path.abspath("../Utility"))
-import general_IO as gIO
+from ..Utility import general_IO as gIO
     
 # =============================================================================
 # General Path Definition
@@ -18,9 +17,9 @@ labelled_image = True
 
 path_input_root = "../Tutorial"
 
-path_input_raw = path_input_root+"/Data/Labelled/Set3/Processed/Field_0/GrowthStage_0/RGB"
-path_input_OTSU = path_input_root+"/Output_General/Set3/Output/Session_{0}/Otsu_R".format(session_number)
-path_input_PLANT_FT_PRED = path_input_root+"/Output_General/Set3/Output_FA/Session_{0}/Plant_FT_Predictions".format(session_number)
+path_input_raw = path_input_root+"/Data/Non-Labelled/18/"
+path_input_OTSU = path_input_root+"/Output_General/18/Output/Session_{0}/Otsu_R".format(session_number)
+path_input_PLANT_FT_PRED = path_input_root+"/Output_General/18/Output_FA/Session_{0}/Plant_FT_Predictions".format(session_number)
 
 names_input_raw = gIO.listdir_nohidden(path_input_raw)
 names_input_OTSU = gIO.listdir_nohidden(path_input_OTSU)
@@ -143,4 +142,4 @@ if (labelled_image):
 # MAS_Simulation.Show_Adjusted_And_RALs_positions()
 # =============================================================================
 MAS_Simulation.Show_nb_RALs()
-#MAS_Simulation.Show_RALs_Deicision_Scores()
+MAS_Simulation.Show_RALs_Deicision_Scores()
