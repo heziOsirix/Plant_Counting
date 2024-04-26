@@ -51,22 +51,11 @@ import shutil
 from pathlib import Path
 from PIL import Image
 
-abs_path = os.path.dirname(__file__)
-
-sys.path.append(os.path.join(abs_path, '../Utility'))
-import general_IO as gIO
-
-sys.path.append(os.path.join(abs_path,"../Segmentation_Otsu"))
-import data
-
-sys.path.append(os.path.join(abs_path,"../BSAS"))
-import bsas
-
-sys.path.append(os.path.join(abs_path,"../Crops_Rows_Angle_Detection"))
-import CRAD
-
-sys.path.append(os.path.join(abs_path,"../Labels_Processing"))
-import Labels_Processing_v2 as LblP
+from ..Utility import general_IO as gIO
+from ..Segmentation_Otsu import data
+from ..BSAS import bsas
+from ..Crops_Rows_Angle_Detection import CRAD
+from ..Labels_Processing import Labels_Processing_v2 as LblP
 
 def All_Pre_Treatment(_path_input_rgb_img, _path_output_root,
                       _path_position_files = None, _rows_real_angle = 0,
@@ -101,22 +90,22 @@ def All_Pre_Treatment(_path_input_rgb_img, _path_output_root,
     gIO.check_make_directory(path_output_Otsu_R)
     if _do_Otsu:
         for i in range(nb_images):
-            try:
-                print()
-                print ("Processing Otsu mask for image", list_images[i], "{0}/{1}".format(i+1, nb_images))
-                image = data.Data(list_images[i], _path_input_rgb_img)
-                image.save("mask_Otsu", "OTSU_"+list_images[i], path = path_output_Otsu)
-            except:
-                print("There was an error processing image" , list_images[i], "{0}/{1}".format(i+1, nb_images))
-                #save the image as it was originally, for now, it looks like it is throwing an exception if the image is 100% black
-                #The algorithm will expect a jpg image so we copy the original as jpg
-                #temp_img = Image.open(os.path.join(_path_input_rgb_img, list_images[i]))
-                #temp_img.save("mask_Otsu", "OTSU_"+list_images[i], path = path_output_Otsu)
-                src = Path(_path_input_rgb_img) / list_images[i]
-                tiff_extension = list_images[i].replace(".tif", ".jpg")
-                file_name = f"OTSU_{tiff_extension}"
-                dst = Path(path_output_Otsu) / file_name
-                shutil.copyfile(src, dst)
+            # try:
+            print()
+            print ("Processing Otsu mask for image", list_images[i], "{0}/{1}".format(i+1, nb_images))
+            image = data.Data(list_images[i], _path_input_rgb_img)
+            image.save("mask_Otsu", "OTSU_"+list_images[i], path = path_output_Otsu)
+            # except:
+            #     print("There was an error processing image" , list_images[i], "{0}/{1}".format(i+1, nb_images))
+            #     #save the image as it was originally, for now, it looks like it is throwing an exception if the image is 100% black
+            #     #The algorithm will expect a jpg image so we copy the original as jpg
+            #     #temp_img = Image.open(os.path.join(_path_input_rgb_img, list_images[i]))
+            #     #temp_img.save("mask_Otsu", "OTSU_"+list_images[i], path = path_output_Otsu)
+            #     src = Path(_path_input_rgb_img) / list_images[i]
+            #     tiff_extension = list_images[i].replace(".tif", ".jpg")
+            #     file_name = f"OTSU_{tiff_extension}"
+            #     dst = Path(path_output_Otsu) / file_name
+            #     shutil.copyfile(src, dst)
     
 # =============================================================================
 # Angle Detection (AD)

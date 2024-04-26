@@ -1,0 +1,5210 @@
+{
+    "input_file_path": "C:\\Users\\Hezid\\Documents\\GitHub\\plant-estimation\\test.tif",
+    "splitted_images_path": "test",
+    "input_file_size": {
+        "width": 8976,
+        "height": 11051
+    },
+    "images": [
+        {
+            "image_name": "piece_0x0.tif",
+            "image_path": "test\\piece_0x0.tif",
+            "coordinates": {
+                "left": 0,
+                "top": 0,
+                "right": 448,
+                "bottom": 552
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_0x1.tif",
+            "image_path": "test\\piece_0x1.tif",
+            "coordinates": {
+                "left": 448,
+                "top": 0,
+                "right": 896,
+                "bottom": 552
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_0x2.tif",
+            "image_path": "test\\piece_0x2.tif",
+            "coordinates": {
+                "left": 896,
+                "top": 0,
+                "right": 1344,
+                "bottom": 552
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_0x3.tif",
+            "image_path": "test\\piece_0x3.tif",
+            "coordinates": {
+                "left": 1344,
+                "top": 0,
+                "right": 1792,
+                "bottom": 552
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_0x4.tif",
+            "image_path": "test\\piece_0x4.tif",
+            "coordinates": {
+                "left": 1792,
+                "top": 0,
+                "right": 2240,
+                "bottom": 552
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_0x5.tif",
+            "image_path": "test\\piece_0x5.tif",
+            "coordinates": {
+                "left": 2240,
+                "top": 0,
+                "right": 2688,
+                "bottom": 552
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_0x6.tif",
+            "image_path": "test\\piece_0x6.tif",
+            "coordinates": {
+                "left": 2688,
+                "top": 0,
+                "right": 3136,
+                "bottom": 552
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_0x7.tif",
+            "image_path": "test\\piece_0x7.tif",
+            "coordinates": {
+                "left": 3136,
+                "top": 0,
+                "right": 3584,
+                "bottom": 552
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_0x8.tif",
+            "image_path": "test\\piece_0x8.tif",
+            "coordinates": {
+                "left": 3584,
+                "top": 0,
+                "right": 4032,
+                "bottom": 552
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_0x9.tif",
+            "image_path": "test\\piece_0x9.tif",
+            "coordinates": {
+                "left": 4032,
+                "top": 0,
+                "right": 4480,
+                "bottom": 552
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_0x10.tif",
+            "image_path": "test\\piece_0x10.tif",
+            "coordinates": {
+                "left": 4480,
+                "top": 0,
+                "right": 4928,
+                "bottom": 552
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_0x11.tif",
+            "image_path": "test\\piece_0x11.tif",
+            "coordinates": {
+                "left": 4928,
+                "top": 0,
+                "right": 5376,
+                "bottom": 552
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_0x12.tif",
+            "image_path": "test\\piece_0x12.tif",
+            "coordinates": {
+                "left": 5376,
+                "top": 0,
+                "right": 5824,
+                "bottom": 552
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_0x13.tif",
+            "image_path": "test\\piece_0x13.tif",
+            "coordinates": {
+                "left": 5824,
+                "top": 0,
+                "right": 6272,
+                "bottom": 552
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_0x14.tif",
+            "image_path": "test\\piece_0x14.tif",
+            "coordinates": {
+                "left": 6272,
+                "top": 0,
+                "right": 6720,
+                "bottom": 552
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_0x15.tif",
+            "image_path": "test\\piece_0x15.tif",
+            "coordinates": {
+                "left": 6720,
+                "top": 0,
+                "right": 7168,
+                "bottom": 552
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_0x16.tif",
+            "image_path": "test\\piece_0x16.tif",
+            "coordinates": {
+                "left": 7168,
+                "top": 0,
+                "right": 7616,
+                "bottom": 552
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_0x17.tif",
+            "image_path": "test\\piece_0x17.tif",
+            "coordinates": {
+                "left": 7616,
+                "top": 0,
+                "right": 8064,
+                "bottom": 552
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_0x18.tif",
+            "image_path": "test\\piece_0x18.tif",
+            "coordinates": {
+                "left": 8064,
+                "top": 0,
+                "right": 8512,
+                "bottom": 552
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_0x19.tif",
+            "image_path": "test\\piece_0x19.tif",
+            "coordinates": {
+                "left": 8512,
+                "top": 0,
+                "right": 8960,
+                "bottom": 552
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_1x0.tif",
+            "image_path": "test\\piece_1x0.tif",
+            "coordinates": {
+                "left": 0,
+                "top": 552,
+                "right": 448,
+                "bottom": 1104
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_1x1.tif",
+            "image_path": "test\\piece_1x1.tif",
+            "coordinates": {
+                "left": 448,
+                "top": 552,
+                "right": 896,
+                "bottom": 1104
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_1x2.tif",
+            "image_path": "test\\piece_1x2.tif",
+            "coordinates": {
+                "left": 896,
+                "top": 552,
+                "right": 1344,
+                "bottom": 1104
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_1x3.tif",
+            "image_path": "test\\piece_1x3.tif",
+            "coordinates": {
+                "left": 1344,
+                "top": 552,
+                "right": 1792,
+                "bottom": 1104
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_1x4.tif",
+            "image_path": "test\\piece_1x4.tif",
+            "coordinates": {
+                "left": 1792,
+                "top": 552,
+                "right": 2240,
+                "bottom": 1104
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_1x5.tif",
+            "image_path": "test\\piece_1x5.tif",
+            "coordinates": {
+                "left": 2240,
+                "top": 552,
+                "right": 2688,
+                "bottom": 1104
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_1x6.tif",
+            "image_path": "test\\piece_1x6.tif",
+            "coordinates": {
+                "left": 2688,
+                "top": 552,
+                "right": 3136,
+                "bottom": 1104
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_1x7.tif",
+            "image_path": "test\\piece_1x7.tif",
+            "coordinates": {
+                "left": 3136,
+                "top": 552,
+                "right": 3584,
+                "bottom": 1104
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_1x8.tif",
+            "image_path": "test\\piece_1x8.tif",
+            "coordinates": {
+                "left": 3584,
+                "top": 552,
+                "right": 4032,
+                "bottom": 1104
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_1x9.tif",
+            "image_path": "test\\piece_1x9.tif",
+            "coordinates": {
+                "left": 4032,
+                "top": 552,
+                "right": 4480,
+                "bottom": 1104
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_1x10.tif",
+            "image_path": "test\\piece_1x10.tif",
+            "coordinates": {
+                "left": 4480,
+                "top": 552,
+                "right": 4928,
+                "bottom": 1104
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_1x11.tif",
+            "image_path": "test\\piece_1x11.tif",
+            "coordinates": {
+                "left": 4928,
+                "top": 552,
+                "right": 5376,
+                "bottom": 1104
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_1x12.tif",
+            "image_path": "test\\piece_1x12.tif",
+            "coordinates": {
+                "left": 5376,
+                "top": 552,
+                "right": 5824,
+                "bottom": 1104
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_1x13.tif",
+            "image_path": "test\\piece_1x13.tif",
+            "coordinates": {
+                "left": 5824,
+                "top": 552,
+                "right": 6272,
+                "bottom": 1104
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_1x14.tif",
+            "image_path": "test\\piece_1x14.tif",
+            "coordinates": {
+                "left": 6272,
+                "top": 552,
+                "right": 6720,
+                "bottom": 1104
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_1x15.tif",
+            "image_path": "test\\piece_1x15.tif",
+            "coordinates": {
+                "left": 6720,
+                "top": 552,
+                "right": 7168,
+                "bottom": 1104
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_1x16.tif",
+            "image_path": "test\\piece_1x16.tif",
+            "coordinates": {
+                "left": 7168,
+                "top": 552,
+                "right": 7616,
+                "bottom": 1104
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_1x17.tif",
+            "image_path": "test\\piece_1x17.tif",
+            "coordinates": {
+                "left": 7616,
+                "top": 552,
+                "right": 8064,
+                "bottom": 1104
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_1x18.tif",
+            "image_path": "test\\piece_1x18.tif",
+            "coordinates": {
+                "left": 8064,
+                "top": 552,
+                "right": 8512,
+                "bottom": 1104
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_1x19.tif",
+            "image_path": "test\\piece_1x19.tif",
+            "coordinates": {
+                "left": 8512,
+                "top": 552,
+                "right": 8960,
+                "bottom": 1104
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_2x0.tif",
+            "image_path": "test\\piece_2x0.tif",
+            "coordinates": {
+                "left": 0,
+                "top": 1104,
+                "right": 448,
+                "bottom": 1656
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_2x1.tif",
+            "image_path": "test\\piece_2x1.tif",
+            "coordinates": {
+                "left": 448,
+                "top": 1104,
+                "right": 896,
+                "bottom": 1656
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_2x2.tif",
+            "image_path": "test\\piece_2x2.tif",
+            "coordinates": {
+                "left": 896,
+                "top": 1104,
+                "right": 1344,
+                "bottom": 1656
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_2x3.tif",
+            "image_path": "test\\piece_2x3.tif",
+            "coordinates": {
+                "left": 1344,
+                "top": 1104,
+                "right": 1792,
+                "bottom": 1656
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_2x4.tif",
+            "image_path": "test\\piece_2x4.tif",
+            "coordinates": {
+                "left": 1792,
+                "top": 1104,
+                "right": 2240,
+                "bottom": 1656
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_2x5.tif",
+            "image_path": "test\\piece_2x5.tif",
+            "coordinates": {
+                "left": 2240,
+                "top": 1104,
+                "right": 2688,
+                "bottom": 1656
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_2x6.tif",
+            "image_path": "test\\piece_2x6.tif",
+            "coordinates": {
+                "left": 2688,
+                "top": 1104,
+                "right": 3136,
+                "bottom": 1656
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_2x7.tif",
+            "image_path": "test\\piece_2x7.tif",
+            "coordinates": {
+                "left": 3136,
+                "top": 1104,
+                "right": 3584,
+                "bottom": 1656
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_2x8.tif",
+            "image_path": "test\\piece_2x8.tif",
+            "coordinates": {
+                "left": 3584,
+                "top": 1104,
+                "right": 4032,
+                "bottom": 1656
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_2x9.tif",
+            "image_path": "test\\piece_2x9.tif",
+            "coordinates": {
+                "left": 4032,
+                "top": 1104,
+                "right": 4480,
+                "bottom": 1656
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_2x10.tif",
+            "image_path": "test\\piece_2x10.tif",
+            "coordinates": {
+                "left": 4480,
+                "top": 1104,
+                "right": 4928,
+                "bottom": 1656
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_2x11.tif",
+            "image_path": "test\\piece_2x11.tif",
+            "coordinates": {
+                "left": 4928,
+                "top": 1104,
+                "right": 5376,
+                "bottom": 1656
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_2x12.tif",
+            "image_path": "test\\piece_2x12.tif",
+            "coordinates": {
+                "left": 5376,
+                "top": 1104,
+                "right": 5824,
+                "bottom": 1656
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_2x13.tif",
+            "image_path": "test\\piece_2x13.tif",
+            "coordinates": {
+                "left": 5824,
+                "top": 1104,
+                "right": 6272,
+                "bottom": 1656
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_2x14.tif",
+            "image_path": "test\\piece_2x14.tif",
+            "coordinates": {
+                "left": 6272,
+                "top": 1104,
+                "right": 6720,
+                "bottom": 1656
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_2x15.tif",
+            "image_path": "test\\piece_2x15.tif",
+            "coordinates": {
+                "left": 6720,
+                "top": 1104,
+                "right": 7168,
+                "bottom": 1656
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_2x16.tif",
+            "image_path": "test\\piece_2x16.tif",
+            "coordinates": {
+                "left": 7168,
+                "top": 1104,
+                "right": 7616,
+                "bottom": 1656
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_2x17.tif",
+            "image_path": "test\\piece_2x17.tif",
+            "coordinates": {
+                "left": 7616,
+                "top": 1104,
+                "right": 8064,
+                "bottom": 1656
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_2x18.tif",
+            "image_path": "test\\piece_2x18.tif",
+            "coordinates": {
+                "left": 8064,
+                "top": 1104,
+                "right": 8512,
+                "bottom": 1656
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_2x19.tif",
+            "image_path": "test\\piece_2x19.tif",
+            "coordinates": {
+                "left": 8512,
+                "top": 1104,
+                "right": 8960,
+                "bottom": 1656
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_3x0.tif",
+            "image_path": "test\\piece_3x0.tif",
+            "coordinates": {
+                "left": 0,
+                "top": 1656,
+                "right": 448,
+                "bottom": 2208
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_3x1.tif",
+            "image_path": "test\\piece_3x1.tif",
+            "coordinates": {
+                "left": 448,
+                "top": 1656,
+                "right": 896,
+                "bottom": 2208
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_3x2.tif",
+            "image_path": "test\\piece_3x2.tif",
+            "coordinates": {
+                "left": 896,
+                "top": 1656,
+                "right": 1344,
+                "bottom": 2208
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_3x3.tif",
+            "image_path": "test\\piece_3x3.tif",
+            "coordinates": {
+                "left": 1344,
+                "top": 1656,
+                "right": 1792,
+                "bottom": 2208
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_3x4.tif",
+            "image_path": "test\\piece_3x4.tif",
+            "coordinates": {
+                "left": 1792,
+                "top": 1656,
+                "right": 2240,
+                "bottom": 2208
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_3x5.tif",
+            "image_path": "test\\piece_3x5.tif",
+            "coordinates": {
+                "left": 2240,
+                "top": 1656,
+                "right": 2688,
+                "bottom": 2208
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_3x6.tif",
+            "image_path": "test\\piece_3x6.tif",
+            "coordinates": {
+                "left": 2688,
+                "top": 1656,
+                "right": 3136,
+                "bottom": 2208
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_3x7.tif",
+            "image_path": "test\\piece_3x7.tif",
+            "coordinates": {
+                "left": 3136,
+                "top": 1656,
+                "right": 3584,
+                "bottom": 2208
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_3x8.tif",
+            "image_path": "test\\piece_3x8.tif",
+            "coordinates": {
+                "left": 3584,
+                "top": 1656,
+                "right": 4032,
+                "bottom": 2208
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_3x9.tif",
+            "image_path": "test\\piece_3x9.tif",
+            "coordinates": {
+                "left": 4032,
+                "top": 1656,
+                "right": 4480,
+                "bottom": 2208
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_3x10.tif",
+            "image_path": "test\\piece_3x10.tif",
+            "coordinates": {
+                "left": 4480,
+                "top": 1656,
+                "right": 4928,
+                "bottom": 2208
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_3x11.tif",
+            "image_path": "test\\piece_3x11.tif",
+            "coordinates": {
+                "left": 4928,
+                "top": 1656,
+                "right": 5376,
+                "bottom": 2208
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_3x12.tif",
+            "image_path": "test\\piece_3x12.tif",
+            "coordinates": {
+                "left": 5376,
+                "top": 1656,
+                "right": 5824,
+                "bottom": 2208
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_3x13.tif",
+            "image_path": "test\\piece_3x13.tif",
+            "coordinates": {
+                "left": 5824,
+                "top": 1656,
+                "right": 6272,
+                "bottom": 2208
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_3x14.tif",
+            "image_path": "test\\piece_3x14.tif",
+            "coordinates": {
+                "left": 6272,
+                "top": 1656,
+                "right": 6720,
+                "bottom": 2208
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_3x15.tif",
+            "image_path": "test\\piece_3x15.tif",
+            "coordinates": {
+                "left": 6720,
+                "top": 1656,
+                "right": 7168,
+                "bottom": 2208
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_3x16.tif",
+            "image_path": "test\\piece_3x16.tif",
+            "coordinates": {
+                "left": 7168,
+                "top": 1656,
+                "right": 7616,
+                "bottom": 2208
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_3x17.tif",
+            "image_path": "test\\piece_3x17.tif",
+            "coordinates": {
+                "left": 7616,
+                "top": 1656,
+                "right": 8064,
+                "bottom": 2208
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_3x18.tif",
+            "image_path": "test\\piece_3x18.tif",
+            "coordinates": {
+                "left": 8064,
+                "top": 1656,
+                "right": 8512,
+                "bottom": 2208
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_3x19.tif",
+            "image_path": "test\\piece_3x19.tif",
+            "coordinates": {
+                "left": 8512,
+                "top": 1656,
+                "right": 8960,
+                "bottom": 2208
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_4x0.tif",
+            "image_path": "test\\piece_4x0.tif",
+            "coordinates": {
+                "left": 0,
+                "top": 2208,
+                "right": 448,
+                "bottom": 2760
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_4x1.tif",
+            "image_path": "test\\piece_4x1.tif",
+            "coordinates": {
+                "left": 448,
+                "top": 2208,
+                "right": 896,
+                "bottom": 2760
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_4x2.tif",
+            "image_path": "test\\piece_4x2.tif",
+            "coordinates": {
+                "left": 896,
+                "top": 2208,
+                "right": 1344,
+                "bottom": 2760
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_4x3.tif",
+            "image_path": "test\\piece_4x3.tif",
+            "coordinates": {
+                "left": 1344,
+                "top": 2208,
+                "right": 1792,
+                "bottom": 2760
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_4x4.tif",
+            "image_path": "test\\piece_4x4.tif",
+            "coordinates": {
+                "left": 1792,
+                "top": 2208,
+                "right": 2240,
+                "bottom": 2760
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_4x5.tif",
+            "image_path": "test\\piece_4x5.tif",
+            "coordinates": {
+                "left": 2240,
+                "top": 2208,
+                "right": 2688,
+                "bottom": 2760
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_4x6.tif",
+            "image_path": "test\\piece_4x6.tif",
+            "coordinates": {
+                "left": 2688,
+                "top": 2208,
+                "right": 3136,
+                "bottom": 2760
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_4x7.tif",
+            "image_path": "test\\piece_4x7.tif",
+            "coordinates": {
+                "left": 3136,
+                "top": 2208,
+                "right": 3584,
+                "bottom": 2760
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_4x8.tif",
+            "image_path": "test\\piece_4x8.tif",
+            "coordinates": {
+                "left": 3584,
+                "top": 2208,
+                "right": 4032,
+                "bottom": 2760
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_4x9.tif",
+            "image_path": "test\\piece_4x9.tif",
+            "coordinates": {
+                "left": 4032,
+                "top": 2208,
+                "right": 4480,
+                "bottom": 2760
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_4x10.tif",
+            "image_path": "test\\piece_4x10.tif",
+            "coordinates": {
+                "left": 4480,
+                "top": 2208,
+                "right": 4928,
+                "bottom": 2760
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_4x11.tif",
+            "image_path": "test\\piece_4x11.tif",
+            "coordinates": {
+                "left": 4928,
+                "top": 2208,
+                "right": 5376,
+                "bottom": 2760
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_4x12.tif",
+            "image_path": "test\\piece_4x12.tif",
+            "coordinates": {
+                "left": 5376,
+                "top": 2208,
+                "right": 5824,
+                "bottom": 2760
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_4x13.tif",
+            "image_path": "test\\piece_4x13.tif",
+            "coordinates": {
+                "left": 5824,
+                "top": 2208,
+                "right": 6272,
+                "bottom": 2760
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_4x14.tif",
+            "image_path": "test\\piece_4x14.tif",
+            "coordinates": {
+                "left": 6272,
+                "top": 2208,
+                "right": 6720,
+                "bottom": 2760
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_4x15.tif",
+            "image_path": "test\\piece_4x15.tif",
+            "coordinates": {
+                "left": 6720,
+                "top": 2208,
+                "right": 7168,
+                "bottom": 2760
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_4x16.tif",
+            "image_path": "test\\piece_4x16.tif",
+            "coordinates": {
+                "left": 7168,
+                "top": 2208,
+                "right": 7616,
+                "bottom": 2760
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_4x17.tif",
+            "image_path": "test\\piece_4x17.tif",
+            "coordinates": {
+                "left": 7616,
+                "top": 2208,
+                "right": 8064,
+                "bottom": 2760
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_4x18.tif",
+            "image_path": "test\\piece_4x18.tif",
+            "coordinates": {
+                "left": 8064,
+                "top": 2208,
+                "right": 8512,
+                "bottom": 2760
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_4x19.tif",
+            "image_path": "test\\piece_4x19.tif",
+            "coordinates": {
+                "left": 8512,
+                "top": 2208,
+                "right": 8960,
+                "bottom": 2760
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_5x0.tif",
+            "image_path": "test\\piece_5x0.tif",
+            "coordinates": {
+                "left": 0,
+                "top": 2760,
+                "right": 448,
+                "bottom": 3312
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_5x1.tif",
+            "image_path": "test\\piece_5x1.tif",
+            "coordinates": {
+                "left": 448,
+                "top": 2760,
+                "right": 896,
+                "bottom": 3312
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_5x2.tif",
+            "image_path": "test\\piece_5x2.tif",
+            "coordinates": {
+                "left": 896,
+                "top": 2760,
+                "right": 1344,
+                "bottom": 3312
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_5x3.tif",
+            "image_path": "test\\piece_5x3.tif",
+            "coordinates": {
+                "left": 1344,
+                "top": 2760,
+                "right": 1792,
+                "bottom": 3312
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_5x4.tif",
+            "image_path": "test\\piece_5x4.tif",
+            "coordinates": {
+                "left": 1792,
+                "top": 2760,
+                "right": 2240,
+                "bottom": 3312
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_5x5.tif",
+            "image_path": "test\\piece_5x5.tif",
+            "coordinates": {
+                "left": 2240,
+                "top": 2760,
+                "right": 2688,
+                "bottom": 3312
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_5x6.tif",
+            "image_path": "test\\piece_5x6.tif",
+            "coordinates": {
+                "left": 2688,
+                "top": 2760,
+                "right": 3136,
+                "bottom": 3312
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_5x7.tif",
+            "image_path": "test\\piece_5x7.tif",
+            "coordinates": {
+                "left": 3136,
+                "top": 2760,
+                "right": 3584,
+                "bottom": 3312
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_5x8.tif",
+            "image_path": "test\\piece_5x8.tif",
+            "coordinates": {
+                "left": 3584,
+                "top": 2760,
+                "right": 4032,
+                "bottom": 3312
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_5x9.tif",
+            "image_path": "test\\piece_5x9.tif",
+            "coordinates": {
+                "left": 4032,
+                "top": 2760,
+                "right": 4480,
+                "bottom": 3312
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_5x10.tif",
+            "image_path": "test\\piece_5x10.tif",
+            "coordinates": {
+                "left": 4480,
+                "top": 2760,
+                "right": 4928,
+                "bottom": 3312
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_5x11.tif",
+            "image_path": "test\\piece_5x11.tif",
+            "coordinates": {
+                "left": 4928,
+                "top": 2760,
+                "right": 5376,
+                "bottom": 3312
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_5x12.tif",
+            "image_path": "test\\piece_5x12.tif",
+            "coordinates": {
+                "left": 5376,
+                "top": 2760,
+                "right": 5824,
+                "bottom": 3312
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_5x13.tif",
+            "image_path": "test\\piece_5x13.tif",
+            "coordinates": {
+                "left": 5824,
+                "top": 2760,
+                "right": 6272,
+                "bottom": 3312
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_5x14.tif",
+            "image_path": "test\\piece_5x14.tif",
+            "coordinates": {
+                "left": 6272,
+                "top": 2760,
+                "right": 6720,
+                "bottom": 3312
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_5x15.tif",
+            "image_path": "test\\piece_5x15.tif",
+            "coordinates": {
+                "left": 6720,
+                "top": 2760,
+                "right": 7168,
+                "bottom": 3312
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_5x16.tif",
+            "image_path": "test\\piece_5x16.tif",
+            "coordinates": {
+                "left": 7168,
+                "top": 2760,
+                "right": 7616,
+                "bottom": 3312
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_5x17.tif",
+            "image_path": "test\\piece_5x17.tif",
+            "coordinates": {
+                "left": 7616,
+                "top": 2760,
+                "right": 8064,
+                "bottom": 3312
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_5x18.tif",
+            "image_path": "test\\piece_5x18.tif",
+            "coordinates": {
+                "left": 8064,
+                "top": 2760,
+                "right": 8512,
+                "bottom": 3312
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_5x19.tif",
+            "image_path": "test\\piece_5x19.tif",
+            "coordinates": {
+                "left": 8512,
+                "top": 2760,
+                "right": 8960,
+                "bottom": 3312
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_6x0.tif",
+            "image_path": "test\\piece_6x0.tif",
+            "coordinates": {
+                "left": 0,
+                "top": 3312,
+                "right": 448,
+                "bottom": 3864
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_6x1.tif",
+            "image_path": "test\\piece_6x1.tif",
+            "coordinates": {
+                "left": 448,
+                "top": 3312,
+                "right": 896,
+                "bottom": 3864
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_6x2.tif",
+            "image_path": "test\\piece_6x2.tif",
+            "coordinates": {
+                "left": 896,
+                "top": 3312,
+                "right": 1344,
+                "bottom": 3864
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_6x3.tif",
+            "image_path": "test\\piece_6x3.tif",
+            "coordinates": {
+                "left": 1344,
+                "top": 3312,
+                "right": 1792,
+                "bottom": 3864
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_6x4.tif",
+            "image_path": "test\\piece_6x4.tif",
+            "coordinates": {
+                "left": 1792,
+                "top": 3312,
+                "right": 2240,
+                "bottom": 3864
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_6x5.tif",
+            "image_path": "test\\piece_6x5.tif",
+            "coordinates": {
+                "left": 2240,
+                "top": 3312,
+                "right": 2688,
+                "bottom": 3864
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_6x6.tif",
+            "image_path": "test\\piece_6x6.tif",
+            "coordinates": {
+                "left": 2688,
+                "top": 3312,
+                "right": 3136,
+                "bottom": 3864
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_6x7.tif",
+            "image_path": "test\\piece_6x7.tif",
+            "coordinates": {
+                "left": 3136,
+                "top": 3312,
+                "right": 3584,
+                "bottom": 3864
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_6x8.tif",
+            "image_path": "test\\piece_6x8.tif",
+            "coordinates": {
+                "left": 3584,
+                "top": 3312,
+                "right": 4032,
+                "bottom": 3864
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_6x9.tif",
+            "image_path": "test\\piece_6x9.tif",
+            "coordinates": {
+                "left": 4032,
+                "top": 3312,
+                "right": 4480,
+                "bottom": 3864
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_6x10.tif",
+            "image_path": "test\\piece_6x10.tif",
+            "coordinates": {
+                "left": 4480,
+                "top": 3312,
+                "right": 4928,
+                "bottom": 3864
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_6x11.tif",
+            "image_path": "test\\piece_6x11.tif",
+            "coordinates": {
+                "left": 4928,
+                "top": 3312,
+                "right": 5376,
+                "bottom": 3864
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_6x12.tif",
+            "image_path": "test\\piece_6x12.tif",
+            "coordinates": {
+                "left": 5376,
+                "top": 3312,
+                "right": 5824,
+                "bottom": 3864
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_6x13.tif",
+            "image_path": "test\\piece_6x13.tif",
+            "coordinates": {
+                "left": 5824,
+                "top": 3312,
+                "right": 6272,
+                "bottom": 3864
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_6x14.tif",
+            "image_path": "test\\piece_6x14.tif",
+            "coordinates": {
+                "left": 6272,
+                "top": 3312,
+                "right": 6720,
+                "bottom": 3864
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_6x15.tif",
+            "image_path": "test\\piece_6x15.tif",
+            "coordinates": {
+                "left": 6720,
+                "top": 3312,
+                "right": 7168,
+                "bottom": 3864
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_6x16.tif",
+            "image_path": "test\\piece_6x16.tif",
+            "coordinates": {
+                "left": 7168,
+                "top": 3312,
+                "right": 7616,
+                "bottom": 3864
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_6x17.tif",
+            "image_path": "test\\piece_6x17.tif",
+            "coordinates": {
+                "left": 7616,
+                "top": 3312,
+                "right": 8064,
+                "bottom": 3864
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_6x18.tif",
+            "image_path": "test\\piece_6x18.tif",
+            "coordinates": {
+                "left": 8064,
+                "top": 3312,
+                "right": 8512,
+                "bottom": 3864
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_6x19.tif",
+            "image_path": "test\\piece_6x19.tif",
+            "coordinates": {
+                "left": 8512,
+                "top": 3312,
+                "right": 8960,
+                "bottom": 3864
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_7x0.tif",
+            "image_path": "test\\piece_7x0.tif",
+            "coordinates": {
+                "left": 0,
+                "top": 3864,
+                "right": 448,
+                "bottom": 4416
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_7x1.tif",
+            "image_path": "test\\piece_7x1.tif",
+            "coordinates": {
+                "left": 448,
+                "top": 3864,
+                "right": 896,
+                "bottom": 4416
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_7x2.tif",
+            "image_path": "test\\piece_7x2.tif",
+            "coordinates": {
+                "left": 896,
+                "top": 3864,
+                "right": 1344,
+                "bottom": 4416
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_7x3.tif",
+            "image_path": "test\\piece_7x3.tif",
+            "coordinates": {
+                "left": 1344,
+                "top": 3864,
+                "right": 1792,
+                "bottom": 4416
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_7x4.tif",
+            "image_path": "test\\piece_7x4.tif",
+            "coordinates": {
+                "left": 1792,
+                "top": 3864,
+                "right": 2240,
+                "bottom": 4416
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_7x5.tif",
+            "image_path": "test\\piece_7x5.tif",
+            "coordinates": {
+                "left": 2240,
+                "top": 3864,
+                "right": 2688,
+                "bottom": 4416
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_7x6.tif",
+            "image_path": "test\\piece_7x6.tif",
+            "coordinates": {
+                "left": 2688,
+                "top": 3864,
+                "right": 3136,
+                "bottom": 4416
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_7x7.tif",
+            "image_path": "test\\piece_7x7.tif",
+            "coordinates": {
+                "left": 3136,
+                "top": 3864,
+                "right": 3584,
+                "bottom": 4416
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_7x8.tif",
+            "image_path": "test\\piece_7x8.tif",
+            "coordinates": {
+                "left": 3584,
+                "top": 3864,
+                "right": 4032,
+                "bottom": 4416
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_7x9.tif",
+            "image_path": "test\\piece_7x9.tif",
+            "coordinates": {
+                "left": 4032,
+                "top": 3864,
+                "right": 4480,
+                "bottom": 4416
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_7x10.tif",
+            "image_path": "test\\piece_7x10.tif",
+            "coordinates": {
+                "left": 4480,
+                "top": 3864,
+                "right": 4928,
+                "bottom": 4416
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_7x11.tif",
+            "image_path": "test\\piece_7x11.tif",
+            "coordinates": {
+                "left": 4928,
+                "top": 3864,
+                "right": 5376,
+                "bottom": 4416
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_7x12.tif",
+            "image_path": "test\\piece_7x12.tif",
+            "coordinates": {
+                "left": 5376,
+                "top": 3864,
+                "right": 5824,
+                "bottom": 4416
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_7x13.tif",
+            "image_path": "test\\piece_7x13.tif",
+            "coordinates": {
+                "left": 5824,
+                "top": 3864,
+                "right": 6272,
+                "bottom": 4416
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_7x14.tif",
+            "image_path": "test\\piece_7x14.tif",
+            "coordinates": {
+                "left": 6272,
+                "top": 3864,
+                "right": 6720,
+                "bottom": 4416
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_7x15.tif",
+            "image_path": "test\\piece_7x15.tif",
+            "coordinates": {
+                "left": 6720,
+                "top": 3864,
+                "right": 7168,
+                "bottom": 4416
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_7x16.tif",
+            "image_path": "test\\piece_7x16.tif",
+            "coordinates": {
+                "left": 7168,
+                "top": 3864,
+                "right": 7616,
+                "bottom": 4416
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_7x17.tif",
+            "image_path": "test\\piece_7x17.tif",
+            "coordinates": {
+                "left": 7616,
+                "top": 3864,
+                "right": 8064,
+                "bottom": 4416
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_7x18.tif",
+            "image_path": "test\\piece_7x18.tif",
+            "coordinates": {
+                "left": 8064,
+                "top": 3864,
+                "right": 8512,
+                "bottom": 4416
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_7x19.tif",
+            "image_path": "test\\piece_7x19.tif",
+            "coordinates": {
+                "left": 8512,
+                "top": 3864,
+                "right": 8960,
+                "bottom": 4416
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_8x0.tif",
+            "image_path": "test\\piece_8x0.tif",
+            "coordinates": {
+                "left": 0,
+                "top": 4416,
+                "right": 448,
+                "bottom": 4968
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_8x1.tif",
+            "image_path": "test\\piece_8x1.tif",
+            "coordinates": {
+                "left": 448,
+                "top": 4416,
+                "right": 896,
+                "bottom": 4968
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_8x2.tif",
+            "image_path": "test\\piece_8x2.tif",
+            "coordinates": {
+                "left": 896,
+                "top": 4416,
+                "right": 1344,
+                "bottom": 4968
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_8x3.tif",
+            "image_path": "test\\piece_8x3.tif",
+            "coordinates": {
+                "left": 1344,
+                "top": 4416,
+                "right": 1792,
+                "bottom": 4968
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_8x4.tif",
+            "image_path": "test\\piece_8x4.tif",
+            "coordinates": {
+                "left": 1792,
+                "top": 4416,
+                "right": 2240,
+                "bottom": 4968
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_8x5.tif",
+            "image_path": "test\\piece_8x5.tif",
+            "coordinates": {
+                "left": 2240,
+                "top": 4416,
+                "right": 2688,
+                "bottom": 4968
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_8x6.tif",
+            "image_path": "test\\piece_8x6.tif",
+            "coordinates": {
+                "left": 2688,
+                "top": 4416,
+                "right": 3136,
+                "bottom": 4968
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_8x7.tif",
+            "image_path": "test\\piece_8x7.tif",
+            "coordinates": {
+                "left": 3136,
+                "top": 4416,
+                "right": 3584,
+                "bottom": 4968
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_8x8.tif",
+            "image_path": "test\\piece_8x8.tif",
+            "coordinates": {
+                "left": 3584,
+                "top": 4416,
+                "right": 4032,
+                "bottom": 4968
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_8x9.tif",
+            "image_path": "test\\piece_8x9.tif",
+            "coordinates": {
+                "left": 4032,
+                "top": 4416,
+                "right": 4480,
+                "bottom": 4968
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_8x10.tif",
+            "image_path": "test\\piece_8x10.tif",
+            "coordinates": {
+                "left": 4480,
+                "top": 4416,
+                "right": 4928,
+                "bottom": 4968
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_8x11.tif",
+            "image_path": "test\\piece_8x11.tif",
+            "coordinates": {
+                "left": 4928,
+                "top": 4416,
+                "right": 5376,
+                "bottom": 4968
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_8x12.tif",
+            "image_path": "test\\piece_8x12.tif",
+            "coordinates": {
+                "left": 5376,
+                "top": 4416,
+                "right": 5824,
+                "bottom": 4968
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_8x13.tif",
+            "image_path": "test\\piece_8x13.tif",
+            "coordinates": {
+                "left": 5824,
+                "top": 4416,
+                "right": 6272,
+                "bottom": 4968
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_8x14.tif",
+            "image_path": "test\\piece_8x14.tif",
+            "coordinates": {
+                "left": 6272,
+                "top": 4416,
+                "right": 6720,
+                "bottom": 4968
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_8x15.tif",
+            "image_path": "test\\piece_8x15.tif",
+            "coordinates": {
+                "left": 6720,
+                "top": 4416,
+                "right": 7168,
+                "bottom": 4968
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_8x16.tif",
+            "image_path": "test\\piece_8x16.tif",
+            "coordinates": {
+                "left": 7168,
+                "top": 4416,
+                "right": 7616,
+                "bottom": 4968
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_8x17.tif",
+            "image_path": "test\\piece_8x17.tif",
+            "coordinates": {
+                "left": 7616,
+                "top": 4416,
+                "right": 8064,
+                "bottom": 4968
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_8x18.tif",
+            "image_path": "test\\piece_8x18.tif",
+            "coordinates": {
+                "left": 8064,
+                "top": 4416,
+                "right": 8512,
+                "bottom": 4968
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_8x19.tif",
+            "image_path": "test\\piece_8x19.tif",
+            "coordinates": {
+                "left": 8512,
+                "top": 4416,
+                "right": 8960,
+                "bottom": 4968
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_9x0.tif",
+            "image_path": "test\\piece_9x0.tif",
+            "coordinates": {
+                "left": 0,
+                "top": 4968,
+                "right": 448,
+                "bottom": 5520
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_9x1.tif",
+            "image_path": "test\\piece_9x1.tif",
+            "coordinates": {
+                "left": 448,
+                "top": 4968,
+                "right": 896,
+                "bottom": 5520
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_9x2.tif",
+            "image_path": "test\\piece_9x2.tif",
+            "coordinates": {
+                "left": 896,
+                "top": 4968,
+                "right": 1344,
+                "bottom": 5520
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_9x3.tif",
+            "image_path": "test\\piece_9x3.tif",
+            "coordinates": {
+                "left": 1344,
+                "top": 4968,
+                "right": 1792,
+                "bottom": 5520
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_9x4.tif",
+            "image_path": "test\\piece_9x4.tif",
+            "coordinates": {
+                "left": 1792,
+                "top": 4968,
+                "right": 2240,
+                "bottom": 5520
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_9x5.tif",
+            "image_path": "test\\piece_9x5.tif",
+            "coordinates": {
+                "left": 2240,
+                "top": 4968,
+                "right": 2688,
+                "bottom": 5520
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_9x6.tif",
+            "image_path": "test\\piece_9x6.tif",
+            "coordinates": {
+                "left": 2688,
+                "top": 4968,
+                "right": 3136,
+                "bottom": 5520
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_9x7.tif",
+            "image_path": "test\\piece_9x7.tif",
+            "coordinates": {
+                "left": 3136,
+                "top": 4968,
+                "right": 3584,
+                "bottom": 5520
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_9x8.tif",
+            "image_path": "test\\piece_9x8.tif",
+            "coordinates": {
+                "left": 3584,
+                "top": 4968,
+                "right": 4032,
+                "bottom": 5520
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_9x9.tif",
+            "image_path": "test\\piece_9x9.tif",
+            "coordinates": {
+                "left": 4032,
+                "top": 4968,
+                "right": 4480,
+                "bottom": 5520
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_9x10.tif",
+            "image_path": "test\\piece_9x10.tif",
+            "coordinates": {
+                "left": 4480,
+                "top": 4968,
+                "right": 4928,
+                "bottom": 5520
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_9x11.tif",
+            "image_path": "test\\piece_9x11.tif",
+            "coordinates": {
+                "left": 4928,
+                "top": 4968,
+                "right": 5376,
+                "bottom": 5520
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_9x12.tif",
+            "image_path": "test\\piece_9x12.tif",
+            "coordinates": {
+                "left": 5376,
+                "top": 4968,
+                "right": 5824,
+                "bottom": 5520
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_9x13.tif",
+            "image_path": "test\\piece_9x13.tif",
+            "coordinates": {
+                "left": 5824,
+                "top": 4968,
+                "right": 6272,
+                "bottom": 5520
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_9x14.tif",
+            "image_path": "test\\piece_9x14.tif",
+            "coordinates": {
+                "left": 6272,
+                "top": 4968,
+                "right": 6720,
+                "bottom": 5520
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_9x15.tif",
+            "image_path": "test\\piece_9x15.tif",
+            "coordinates": {
+                "left": 6720,
+                "top": 4968,
+                "right": 7168,
+                "bottom": 5520
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_9x16.tif",
+            "image_path": "test\\piece_9x16.tif",
+            "coordinates": {
+                "left": 7168,
+                "top": 4968,
+                "right": 7616,
+                "bottom": 5520
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_9x17.tif",
+            "image_path": "test\\piece_9x17.tif",
+            "coordinates": {
+                "left": 7616,
+                "top": 4968,
+                "right": 8064,
+                "bottom": 5520
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_9x18.tif",
+            "image_path": "test\\piece_9x18.tif",
+            "coordinates": {
+                "left": 8064,
+                "top": 4968,
+                "right": 8512,
+                "bottom": 5520
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_9x19.tif",
+            "image_path": "test\\piece_9x19.tif",
+            "coordinates": {
+                "left": 8512,
+                "top": 4968,
+                "right": 8960,
+                "bottom": 5520
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_10x0.tif",
+            "image_path": "test\\piece_10x0.tif",
+            "coordinates": {
+                "left": 0,
+                "top": 5520,
+                "right": 448,
+                "bottom": 6072
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_10x1.tif",
+            "image_path": "test\\piece_10x1.tif",
+            "coordinates": {
+                "left": 448,
+                "top": 5520,
+                "right": 896,
+                "bottom": 6072
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_10x2.tif",
+            "image_path": "test\\piece_10x2.tif",
+            "coordinates": {
+                "left": 896,
+                "top": 5520,
+                "right": 1344,
+                "bottom": 6072
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_10x3.tif",
+            "image_path": "test\\piece_10x3.tif",
+            "coordinates": {
+                "left": 1344,
+                "top": 5520,
+                "right": 1792,
+                "bottom": 6072
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_10x4.tif",
+            "image_path": "test\\piece_10x4.tif",
+            "coordinates": {
+                "left": 1792,
+                "top": 5520,
+                "right": 2240,
+                "bottom": 6072
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_10x5.tif",
+            "image_path": "test\\piece_10x5.tif",
+            "coordinates": {
+                "left": 2240,
+                "top": 5520,
+                "right": 2688,
+                "bottom": 6072
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_10x6.tif",
+            "image_path": "test\\piece_10x6.tif",
+            "coordinates": {
+                "left": 2688,
+                "top": 5520,
+                "right": 3136,
+                "bottom": 6072
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_10x7.tif",
+            "image_path": "test\\piece_10x7.tif",
+            "coordinates": {
+                "left": 3136,
+                "top": 5520,
+                "right": 3584,
+                "bottom": 6072
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_10x8.tif",
+            "image_path": "test\\piece_10x8.tif",
+            "coordinates": {
+                "left": 3584,
+                "top": 5520,
+                "right": 4032,
+                "bottom": 6072
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_10x9.tif",
+            "image_path": "test\\piece_10x9.tif",
+            "coordinates": {
+                "left": 4032,
+                "top": 5520,
+                "right": 4480,
+                "bottom": 6072
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_10x10.tif",
+            "image_path": "test\\piece_10x10.tif",
+            "coordinates": {
+                "left": 4480,
+                "top": 5520,
+                "right": 4928,
+                "bottom": 6072
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_10x11.tif",
+            "image_path": "test\\piece_10x11.tif",
+            "coordinates": {
+                "left": 4928,
+                "top": 5520,
+                "right": 5376,
+                "bottom": 6072
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_10x12.tif",
+            "image_path": "test\\piece_10x12.tif",
+            "coordinates": {
+                "left": 5376,
+                "top": 5520,
+                "right": 5824,
+                "bottom": 6072
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_10x13.tif",
+            "image_path": "test\\piece_10x13.tif",
+            "coordinates": {
+                "left": 5824,
+                "top": 5520,
+                "right": 6272,
+                "bottom": 6072
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_10x14.tif",
+            "image_path": "test\\piece_10x14.tif",
+            "coordinates": {
+                "left": 6272,
+                "top": 5520,
+                "right": 6720,
+                "bottom": 6072
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_10x15.tif",
+            "image_path": "test\\piece_10x15.tif",
+            "coordinates": {
+                "left": 6720,
+                "top": 5520,
+                "right": 7168,
+                "bottom": 6072
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_10x16.tif",
+            "image_path": "test\\piece_10x16.tif",
+            "coordinates": {
+                "left": 7168,
+                "top": 5520,
+                "right": 7616,
+                "bottom": 6072
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_10x17.tif",
+            "image_path": "test\\piece_10x17.tif",
+            "coordinates": {
+                "left": 7616,
+                "top": 5520,
+                "right": 8064,
+                "bottom": 6072
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_10x18.tif",
+            "image_path": "test\\piece_10x18.tif",
+            "coordinates": {
+                "left": 8064,
+                "top": 5520,
+                "right": 8512,
+                "bottom": 6072
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_10x19.tif",
+            "image_path": "test\\piece_10x19.tif",
+            "coordinates": {
+                "left": 8512,
+                "top": 5520,
+                "right": 8960,
+                "bottom": 6072
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_11x0.tif",
+            "image_path": "test\\piece_11x0.tif",
+            "coordinates": {
+                "left": 0,
+                "top": 6072,
+                "right": 448,
+                "bottom": 6624
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_11x1.tif",
+            "image_path": "test\\piece_11x1.tif",
+            "coordinates": {
+                "left": 448,
+                "top": 6072,
+                "right": 896,
+                "bottom": 6624
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_11x2.tif",
+            "image_path": "test\\piece_11x2.tif",
+            "coordinates": {
+                "left": 896,
+                "top": 6072,
+                "right": 1344,
+                "bottom": 6624
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_11x3.tif",
+            "image_path": "test\\piece_11x3.tif",
+            "coordinates": {
+                "left": 1344,
+                "top": 6072,
+                "right": 1792,
+                "bottom": 6624
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_11x4.tif",
+            "image_path": "test\\piece_11x4.tif",
+            "coordinates": {
+                "left": 1792,
+                "top": 6072,
+                "right": 2240,
+                "bottom": 6624
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_11x5.tif",
+            "image_path": "test\\piece_11x5.tif",
+            "coordinates": {
+                "left": 2240,
+                "top": 6072,
+                "right": 2688,
+                "bottom": 6624
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_11x6.tif",
+            "image_path": "test\\piece_11x6.tif",
+            "coordinates": {
+                "left": 2688,
+                "top": 6072,
+                "right": 3136,
+                "bottom": 6624
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_11x7.tif",
+            "image_path": "test\\piece_11x7.tif",
+            "coordinates": {
+                "left": 3136,
+                "top": 6072,
+                "right": 3584,
+                "bottom": 6624
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_11x8.tif",
+            "image_path": "test\\piece_11x8.tif",
+            "coordinates": {
+                "left": 3584,
+                "top": 6072,
+                "right": 4032,
+                "bottom": 6624
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_11x9.tif",
+            "image_path": "test\\piece_11x9.tif",
+            "coordinates": {
+                "left": 4032,
+                "top": 6072,
+                "right": 4480,
+                "bottom": 6624
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_11x10.tif",
+            "image_path": "test\\piece_11x10.tif",
+            "coordinates": {
+                "left": 4480,
+                "top": 6072,
+                "right": 4928,
+                "bottom": 6624
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_11x11.tif",
+            "image_path": "test\\piece_11x11.tif",
+            "coordinates": {
+                "left": 4928,
+                "top": 6072,
+                "right": 5376,
+                "bottom": 6624
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_11x12.tif",
+            "image_path": "test\\piece_11x12.tif",
+            "coordinates": {
+                "left": 5376,
+                "top": 6072,
+                "right": 5824,
+                "bottom": 6624
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_11x13.tif",
+            "image_path": "test\\piece_11x13.tif",
+            "coordinates": {
+                "left": 5824,
+                "top": 6072,
+                "right": 6272,
+                "bottom": 6624
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_11x14.tif",
+            "image_path": "test\\piece_11x14.tif",
+            "coordinates": {
+                "left": 6272,
+                "top": 6072,
+                "right": 6720,
+                "bottom": 6624
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_11x15.tif",
+            "image_path": "test\\piece_11x15.tif",
+            "coordinates": {
+                "left": 6720,
+                "top": 6072,
+                "right": 7168,
+                "bottom": 6624
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_11x16.tif",
+            "image_path": "test\\piece_11x16.tif",
+            "coordinates": {
+                "left": 7168,
+                "top": 6072,
+                "right": 7616,
+                "bottom": 6624
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_11x17.tif",
+            "image_path": "test\\piece_11x17.tif",
+            "coordinates": {
+                "left": 7616,
+                "top": 6072,
+                "right": 8064,
+                "bottom": 6624
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_11x18.tif",
+            "image_path": "test\\piece_11x18.tif",
+            "coordinates": {
+                "left": 8064,
+                "top": 6072,
+                "right": 8512,
+                "bottom": 6624
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_11x19.tif",
+            "image_path": "test\\piece_11x19.tif",
+            "coordinates": {
+                "left": 8512,
+                "top": 6072,
+                "right": 8960,
+                "bottom": 6624
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_12x0.tif",
+            "image_path": "test\\piece_12x0.tif",
+            "coordinates": {
+                "left": 0,
+                "top": 6624,
+                "right": 448,
+                "bottom": 7176
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_12x1.tif",
+            "image_path": "test\\piece_12x1.tif",
+            "coordinates": {
+                "left": 448,
+                "top": 6624,
+                "right": 896,
+                "bottom": 7176
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_12x2.tif",
+            "image_path": "test\\piece_12x2.tif",
+            "coordinates": {
+                "left": 896,
+                "top": 6624,
+                "right": 1344,
+                "bottom": 7176
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_12x3.tif",
+            "image_path": "test\\piece_12x3.tif",
+            "coordinates": {
+                "left": 1344,
+                "top": 6624,
+                "right": 1792,
+                "bottom": 7176
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_12x4.tif",
+            "image_path": "test\\piece_12x4.tif",
+            "coordinates": {
+                "left": 1792,
+                "top": 6624,
+                "right": 2240,
+                "bottom": 7176
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_12x5.tif",
+            "image_path": "test\\piece_12x5.tif",
+            "coordinates": {
+                "left": 2240,
+                "top": 6624,
+                "right": 2688,
+                "bottom": 7176
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_12x6.tif",
+            "image_path": "test\\piece_12x6.tif",
+            "coordinates": {
+                "left": 2688,
+                "top": 6624,
+                "right": 3136,
+                "bottom": 7176
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_12x7.tif",
+            "image_path": "test\\piece_12x7.tif",
+            "coordinates": {
+                "left": 3136,
+                "top": 6624,
+                "right": 3584,
+                "bottom": 7176
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_12x8.tif",
+            "image_path": "test\\piece_12x8.tif",
+            "coordinates": {
+                "left": 3584,
+                "top": 6624,
+                "right": 4032,
+                "bottom": 7176
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_12x9.tif",
+            "image_path": "test\\piece_12x9.tif",
+            "coordinates": {
+                "left": 4032,
+                "top": 6624,
+                "right": 4480,
+                "bottom": 7176
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_12x10.tif",
+            "image_path": "test\\piece_12x10.tif",
+            "coordinates": {
+                "left": 4480,
+                "top": 6624,
+                "right": 4928,
+                "bottom": 7176
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_12x11.tif",
+            "image_path": "test\\piece_12x11.tif",
+            "coordinates": {
+                "left": 4928,
+                "top": 6624,
+                "right": 5376,
+                "bottom": 7176
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_12x12.tif",
+            "image_path": "test\\piece_12x12.tif",
+            "coordinates": {
+                "left": 5376,
+                "top": 6624,
+                "right": 5824,
+                "bottom": 7176
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_12x13.tif",
+            "image_path": "test\\piece_12x13.tif",
+            "coordinates": {
+                "left": 5824,
+                "top": 6624,
+                "right": 6272,
+                "bottom": 7176
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_12x14.tif",
+            "image_path": "test\\piece_12x14.tif",
+            "coordinates": {
+                "left": 6272,
+                "top": 6624,
+                "right": 6720,
+                "bottom": 7176
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_12x15.tif",
+            "image_path": "test\\piece_12x15.tif",
+            "coordinates": {
+                "left": 6720,
+                "top": 6624,
+                "right": 7168,
+                "bottom": 7176
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_12x16.tif",
+            "image_path": "test\\piece_12x16.tif",
+            "coordinates": {
+                "left": 7168,
+                "top": 6624,
+                "right": 7616,
+                "bottom": 7176
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_12x17.tif",
+            "image_path": "test\\piece_12x17.tif",
+            "coordinates": {
+                "left": 7616,
+                "top": 6624,
+                "right": 8064,
+                "bottom": 7176
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_12x18.tif",
+            "image_path": "test\\piece_12x18.tif",
+            "coordinates": {
+                "left": 8064,
+                "top": 6624,
+                "right": 8512,
+                "bottom": 7176
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_12x19.tif",
+            "image_path": "test\\piece_12x19.tif",
+            "coordinates": {
+                "left": 8512,
+                "top": 6624,
+                "right": 8960,
+                "bottom": 7176
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_13x0.tif",
+            "image_path": "test\\piece_13x0.tif",
+            "coordinates": {
+                "left": 0,
+                "top": 7176,
+                "right": 448,
+                "bottom": 7728
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_13x1.tif",
+            "image_path": "test\\piece_13x1.tif",
+            "coordinates": {
+                "left": 448,
+                "top": 7176,
+                "right": 896,
+                "bottom": 7728
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_13x2.tif",
+            "image_path": "test\\piece_13x2.tif",
+            "coordinates": {
+                "left": 896,
+                "top": 7176,
+                "right": 1344,
+                "bottom": 7728
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_13x3.tif",
+            "image_path": "test\\piece_13x3.tif",
+            "coordinates": {
+                "left": 1344,
+                "top": 7176,
+                "right": 1792,
+                "bottom": 7728
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_13x4.tif",
+            "image_path": "test\\piece_13x4.tif",
+            "coordinates": {
+                "left": 1792,
+                "top": 7176,
+                "right": 2240,
+                "bottom": 7728
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_13x5.tif",
+            "image_path": "test\\piece_13x5.tif",
+            "coordinates": {
+                "left": 2240,
+                "top": 7176,
+                "right": 2688,
+                "bottom": 7728
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_13x6.tif",
+            "image_path": "test\\piece_13x6.tif",
+            "coordinates": {
+                "left": 2688,
+                "top": 7176,
+                "right": 3136,
+                "bottom": 7728
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_13x7.tif",
+            "image_path": "test\\piece_13x7.tif",
+            "coordinates": {
+                "left": 3136,
+                "top": 7176,
+                "right": 3584,
+                "bottom": 7728
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_13x8.tif",
+            "image_path": "test\\piece_13x8.tif",
+            "coordinates": {
+                "left": 3584,
+                "top": 7176,
+                "right": 4032,
+                "bottom": 7728
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_13x9.tif",
+            "image_path": "test\\piece_13x9.tif",
+            "coordinates": {
+                "left": 4032,
+                "top": 7176,
+                "right": 4480,
+                "bottom": 7728
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_13x10.tif",
+            "image_path": "test\\piece_13x10.tif",
+            "coordinates": {
+                "left": 4480,
+                "top": 7176,
+                "right": 4928,
+                "bottom": 7728
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_13x11.tif",
+            "image_path": "test\\piece_13x11.tif",
+            "coordinates": {
+                "left": 4928,
+                "top": 7176,
+                "right": 5376,
+                "bottom": 7728
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_13x12.tif",
+            "image_path": "test\\piece_13x12.tif",
+            "coordinates": {
+                "left": 5376,
+                "top": 7176,
+                "right": 5824,
+                "bottom": 7728
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_13x13.tif",
+            "image_path": "test\\piece_13x13.tif",
+            "coordinates": {
+                "left": 5824,
+                "top": 7176,
+                "right": 6272,
+                "bottom": 7728
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_13x14.tif",
+            "image_path": "test\\piece_13x14.tif",
+            "coordinates": {
+                "left": 6272,
+                "top": 7176,
+                "right": 6720,
+                "bottom": 7728
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_13x15.tif",
+            "image_path": "test\\piece_13x15.tif",
+            "coordinates": {
+                "left": 6720,
+                "top": 7176,
+                "right": 7168,
+                "bottom": 7728
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_13x16.tif",
+            "image_path": "test\\piece_13x16.tif",
+            "coordinates": {
+                "left": 7168,
+                "top": 7176,
+                "right": 7616,
+                "bottom": 7728
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_13x17.tif",
+            "image_path": "test\\piece_13x17.tif",
+            "coordinates": {
+                "left": 7616,
+                "top": 7176,
+                "right": 8064,
+                "bottom": 7728
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_13x18.tif",
+            "image_path": "test\\piece_13x18.tif",
+            "coordinates": {
+                "left": 8064,
+                "top": 7176,
+                "right": 8512,
+                "bottom": 7728
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_13x19.tif",
+            "image_path": "test\\piece_13x19.tif",
+            "coordinates": {
+                "left": 8512,
+                "top": 7176,
+                "right": 8960,
+                "bottom": 7728
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_14x0.tif",
+            "image_path": "test\\piece_14x0.tif",
+            "coordinates": {
+                "left": 0,
+                "top": 7728,
+                "right": 448,
+                "bottom": 8280
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_14x1.tif",
+            "image_path": "test\\piece_14x1.tif",
+            "coordinates": {
+                "left": 448,
+                "top": 7728,
+                "right": 896,
+                "bottom": 8280
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_14x2.tif",
+            "image_path": "test\\piece_14x2.tif",
+            "coordinates": {
+                "left": 896,
+                "top": 7728,
+                "right": 1344,
+                "bottom": 8280
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_14x3.tif",
+            "image_path": "test\\piece_14x3.tif",
+            "coordinates": {
+                "left": 1344,
+                "top": 7728,
+                "right": 1792,
+                "bottom": 8280
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_14x4.tif",
+            "image_path": "test\\piece_14x4.tif",
+            "coordinates": {
+                "left": 1792,
+                "top": 7728,
+                "right": 2240,
+                "bottom": 8280
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_14x5.tif",
+            "image_path": "test\\piece_14x5.tif",
+            "coordinates": {
+                "left": 2240,
+                "top": 7728,
+                "right": 2688,
+                "bottom": 8280
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_14x6.tif",
+            "image_path": "test\\piece_14x6.tif",
+            "coordinates": {
+                "left": 2688,
+                "top": 7728,
+                "right": 3136,
+                "bottom": 8280
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_14x7.tif",
+            "image_path": "test\\piece_14x7.tif",
+            "coordinates": {
+                "left": 3136,
+                "top": 7728,
+                "right": 3584,
+                "bottom": 8280
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_14x8.tif",
+            "image_path": "test\\piece_14x8.tif",
+            "coordinates": {
+                "left": 3584,
+                "top": 7728,
+                "right": 4032,
+                "bottom": 8280
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_14x9.tif",
+            "image_path": "test\\piece_14x9.tif",
+            "coordinates": {
+                "left": 4032,
+                "top": 7728,
+                "right": 4480,
+                "bottom": 8280
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_14x10.tif",
+            "image_path": "test\\piece_14x10.tif",
+            "coordinates": {
+                "left": 4480,
+                "top": 7728,
+                "right": 4928,
+                "bottom": 8280
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_14x11.tif",
+            "image_path": "test\\piece_14x11.tif",
+            "coordinates": {
+                "left": 4928,
+                "top": 7728,
+                "right": 5376,
+                "bottom": 8280
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_14x12.tif",
+            "image_path": "test\\piece_14x12.tif",
+            "coordinates": {
+                "left": 5376,
+                "top": 7728,
+                "right": 5824,
+                "bottom": 8280
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_14x13.tif",
+            "image_path": "test\\piece_14x13.tif",
+            "coordinates": {
+                "left": 5824,
+                "top": 7728,
+                "right": 6272,
+                "bottom": 8280
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_14x14.tif",
+            "image_path": "test\\piece_14x14.tif",
+            "coordinates": {
+                "left": 6272,
+                "top": 7728,
+                "right": 6720,
+                "bottom": 8280
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_14x15.tif",
+            "image_path": "test\\piece_14x15.tif",
+            "coordinates": {
+                "left": 6720,
+                "top": 7728,
+                "right": 7168,
+                "bottom": 8280
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_14x16.tif",
+            "image_path": "test\\piece_14x16.tif",
+            "coordinates": {
+                "left": 7168,
+                "top": 7728,
+                "right": 7616,
+                "bottom": 8280
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_14x17.tif",
+            "image_path": "test\\piece_14x17.tif",
+            "coordinates": {
+                "left": 7616,
+                "top": 7728,
+                "right": 8064,
+                "bottom": 8280
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_14x18.tif",
+            "image_path": "test\\piece_14x18.tif",
+            "coordinates": {
+                "left": 8064,
+                "top": 7728,
+                "right": 8512,
+                "bottom": 8280
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_14x19.tif",
+            "image_path": "test\\piece_14x19.tif",
+            "coordinates": {
+                "left": 8512,
+                "top": 7728,
+                "right": 8960,
+                "bottom": 8280
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_15x0.tif",
+            "image_path": "test\\piece_15x0.tif",
+            "coordinates": {
+                "left": 0,
+                "top": 8280,
+                "right": 448,
+                "bottom": 8832
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_15x1.tif",
+            "image_path": "test\\piece_15x1.tif",
+            "coordinates": {
+                "left": 448,
+                "top": 8280,
+                "right": 896,
+                "bottom": 8832
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_15x2.tif",
+            "image_path": "test\\piece_15x2.tif",
+            "coordinates": {
+                "left": 896,
+                "top": 8280,
+                "right": 1344,
+                "bottom": 8832
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_15x3.tif",
+            "image_path": "test\\piece_15x3.tif",
+            "coordinates": {
+                "left": 1344,
+                "top": 8280,
+                "right": 1792,
+                "bottom": 8832
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_15x4.tif",
+            "image_path": "test\\piece_15x4.tif",
+            "coordinates": {
+                "left": 1792,
+                "top": 8280,
+                "right": 2240,
+                "bottom": 8832
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_15x5.tif",
+            "image_path": "test\\piece_15x5.tif",
+            "coordinates": {
+                "left": 2240,
+                "top": 8280,
+                "right": 2688,
+                "bottom": 8832
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_15x6.tif",
+            "image_path": "test\\piece_15x6.tif",
+            "coordinates": {
+                "left": 2688,
+                "top": 8280,
+                "right": 3136,
+                "bottom": 8832
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_15x7.tif",
+            "image_path": "test\\piece_15x7.tif",
+            "coordinates": {
+                "left": 3136,
+                "top": 8280,
+                "right": 3584,
+                "bottom": 8832
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_15x8.tif",
+            "image_path": "test\\piece_15x8.tif",
+            "coordinates": {
+                "left": 3584,
+                "top": 8280,
+                "right": 4032,
+                "bottom": 8832
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_15x9.tif",
+            "image_path": "test\\piece_15x9.tif",
+            "coordinates": {
+                "left": 4032,
+                "top": 8280,
+                "right": 4480,
+                "bottom": 8832
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_15x10.tif",
+            "image_path": "test\\piece_15x10.tif",
+            "coordinates": {
+                "left": 4480,
+                "top": 8280,
+                "right": 4928,
+                "bottom": 8832
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_15x11.tif",
+            "image_path": "test\\piece_15x11.tif",
+            "coordinates": {
+                "left": 4928,
+                "top": 8280,
+                "right": 5376,
+                "bottom": 8832
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_15x12.tif",
+            "image_path": "test\\piece_15x12.tif",
+            "coordinates": {
+                "left": 5376,
+                "top": 8280,
+                "right": 5824,
+                "bottom": 8832
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_15x13.tif",
+            "image_path": "test\\piece_15x13.tif",
+            "coordinates": {
+                "left": 5824,
+                "top": 8280,
+                "right": 6272,
+                "bottom": 8832
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_15x14.tif",
+            "image_path": "test\\piece_15x14.tif",
+            "coordinates": {
+                "left": 6272,
+                "top": 8280,
+                "right": 6720,
+                "bottom": 8832
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_15x15.tif",
+            "image_path": "test\\piece_15x15.tif",
+            "coordinates": {
+                "left": 6720,
+                "top": 8280,
+                "right": 7168,
+                "bottom": 8832
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_15x16.tif",
+            "image_path": "test\\piece_15x16.tif",
+            "coordinates": {
+                "left": 7168,
+                "top": 8280,
+                "right": 7616,
+                "bottom": 8832
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_15x17.tif",
+            "image_path": "test\\piece_15x17.tif",
+            "coordinates": {
+                "left": 7616,
+                "top": 8280,
+                "right": 8064,
+                "bottom": 8832
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_15x18.tif",
+            "image_path": "test\\piece_15x18.tif",
+            "coordinates": {
+                "left": 8064,
+                "top": 8280,
+                "right": 8512,
+                "bottom": 8832
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_15x19.tif",
+            "image_path": "test\\piece_15x19.tif",
+            "coordinates": {
+                "left": 8512,
+                "top": 8280,
+                "right": 8960,
+                "bottom": 8832
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_16x0.tif",
+            "image_path": "test\\piece_16x0.tif",
+            "coordinates": {
+                "left": 0,
+                "top": 8832,
+                "right": 448,
+                "bottom": 9384
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_16x1.tif",
+            "image_path": "test\\piece_16x1.tif",
+            "coordinates": {
+                "left": 448,
+                "top": 8832,
+                "right": 896,
+                "bottom": 9384
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_16x2.tif",
+            "image_path": "test\\piece_16x2.tif",
+            "coordinates": {
+                "left": 896,
+                "top": 8832,
+                "right": 1344,
+                "bottom": 9384
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_16x3.tif",
+            "image_path": "test\\piece_16x3.tif",
+            "coordinates": {
+                "left": 1344,
+                "top": 8832,
+                "right": 1792,
+                "bottom": 9384
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_16x4.tif",
+            "image_path": "test\\piece_16x4.tif",
+            "coordinates": {
+                "left": 1792,
+                "top": 8832,
+                "right": 2240,
+                "bottom": 9384
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_16x5.tif",
+            "image_path": "test\\piece_16x5.tif",
+            "coordinates": {
+                "left": 2240,
+                "top": 8832,
+                "right": 2688,
+                "bottom": 9384
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_16x6.tif",
+            "image_path": "test\\piece_16x6.tif",
+            "coordinates": {
+                "left": 2688,
+                "top": 8832,
+                "right": 3136,
+                "bottom": 9384
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_16x7.tif",
+            "image_path": "test\\piece_16x7.tif",
+            "coordinates": {
+                "left": 3136,
+                "top": 8832,
+                "right": 3584,
+                "bottom": 9384
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_16x8.tif",
+            "image_path": "test\\piece_16x8.tif",
+            "coordinates": {
+                "left": 3584,
+                "top": 8832,
+                "right": 4032,
+                "bottom": 9384
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_16x9.tif",
+            "image_path": "test\\piece_16x9.tif",
+            "coordinates": {
+                "left": 4032,
+                "top": 8832,
+                "right": 4480,
+                "bottom": 9384
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_16x10.tif",
+            "image_path": "test\\piece_16x10.tif",
+            "coordinates": {
+                "left": 4480,
+                "top": 8832,
+                "right": 4928,
+                "bottom": 9384
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_16x11.tif",
+            "image_path": "test\\piece_16x11.tif",
+            "coordinates": {
+                "left": 4928,
+                "top": 8832,
+                "right": 5376,
+                "bottom": 9384
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_16x12.tif",
+            "image_path": "test\\piece_16x12.tif",
+            "coordinates": {
+                "left": 5376,
+                "top": 8832,
+                "right": 5824,
+                "bottom": 9384
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_16x13.tif",
+            "image_path": "test\\piece_16x13.tif",
+            "coordinates": {
+                "left": 5824,
+                "top": 8832,
+                "right": 6272,
+                "bottom": 9384
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_16x14.tif",
+            "image_path": "test\\piece_16x14.tif",
+            "coordinates": {
+                "left": 6272,
+                "top": 8832,
+                "right": 6720,
+                "bottom": 9384
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_16x15.tif",
+            "image_path": "test\\piece_16x15.tif",
+            "coordinates": {
+                "left": 6720,
+                "top": 8832,
+                "right": 7168,
+                "bottom": 9384
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_16x16.tif",
+            "image_path": "test\\piece_16x16.tif",
+            "coordinates": {
+                "left": 7168,
+                "top": 8832,
+                "right": 7616,
+                "bottom": 9384
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_16x17.tif",
+            "image_path": "test\\piece_16x17.tif",
+            "coordinates": {
+                "left": 7616,
+                "top": 8832,
+                "right": 8064,
+                "bottom": 9384
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_16x18.tif",
+            "image_path": "test\\piece_16x18.tif",
+            "coordinates": {
+                "left": 8064,
+                "top": 8832,
+                "right": 8512,
+                "bottom": 9384
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_16x19.tif",
+            "image_path": "test\\piece_16x19.tif",
+            "coordinates": {
+                "left": 8512,
+                "top": 8832,
+                "right": 8960,
+                "bottom": 9384
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_17x0.tif",
+            "image_path": "test\\piece_17x0.tif",
+            "coordinates": {
+                "left": 0,
+                "top": 9384,
+                "right": 448,
+                "bottom": 9936
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_17x1.tif",
+            "image_path": "test\\piece_17x1.tif",
+            "coordinates": {
+                "left": 448,
+                "top": 9384,
+                "right": 896,
+                "bottom": 9936
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_17x2.tif",
+            "image_path": "test\\piece_17x2.tif",
+            "coordinates": {
+                "left": 896,
+                "top": 9384,
+                "right": 1344,
+                "bottom": 9936
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_17x3.tif",
+            "image_path": "test\\piece_17x3.tif",
+            "coordinates": {
+                "left": 1344,
+                "top": 9384,
+                "right": 1792,
+                "bottom": 9936
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_17x4.tif",
+            "image_path": "test\\piece_17x4.tif",
+            "coordinates": {
+                "left": 1792,
+                "top": 9384,
+                "right": 2240,
+                "bottom": 9936
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_17x5.tif",
+            "image_path": "test\\piece_17x5.tif",
+            "coordinates": {
+                "left": 2240,
+                "top": 9384,
+                "right": 2688,
+                "bottom": 9936
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_17x6.tif",
+            "image_path": "test\\piece_17x6.tif",
+            "coordinates": {
+                "left": 2688,
+                "top": 9384,
+                "right": 3136,
+                "bottom": 9936
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_17x7.tif",
+            "image_path": "test\\piece_17x7.tif",
+            "coordinates": {
+                "left": 3136,
+                "top": 9384,
+                "right": 3584,
+                "bottom": 9936
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_17x8.tif",
+            "image_path": "test\\piece_17x8.tif",
+            "coordinates": {
+                "left": 3584,
+                "top": 9384,
+                "right": 4032,
+                "bottom": 9936
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_17x9.tif",
+            "image_path": "test\\piece_17x9.tif",
+            "coordinates": {
+                "left": 4032,
+                "top": 9384,
+                "right": 4480,
+                "bottom": 9936
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_17x10.tif",
+            "image_path": "test\\piece_17x10.tif",
+            "coordinates": {
+                "left": 4480,
+                "top": 9384,
+                "right": 4928,
+                "bottom": 9936
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_17x11.tif",
+            "image_path": "test\\piece_17x11.tif",
+            "coordinates": {
+                "left": 4928,
+                "top": 9384,
+                "right": 5376,
+                "bottom": 9936
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_17x12.tif",
+            "image_path": "test\\piece_17x12.tif",
+            "coordinates": {
+                "left": 5376,
+                "top": 9384,
+                "right": 5824,
+                "bottom": 9936
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_17x13.tif",
+            "image_path": "test\\piece_17x13.tif",
+            "coordinates": {
+                "left": 5824,
+                "top": 9384,
+                "right": 6272,
+                "bottom": 9936
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_17x14.tif",
+            "image_path": "test\\piece_17x14.tif",
+            "coordinates": {
+                "left": 6272,
+                "top": 9384,
+                "right": 6720,
+                "bottom": 9936
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_17x15.tif",
+            "image_path": "test\\piece_17x15.tif",
+            "coordinates": {
+                "left": 6720,
+                "top": 9384,
+                "right": 7168,
+                "bottom": 9936
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_17x16.tif",
+            "image_path": "test\\piece_17x16.tif",
+            "coordinates": {
+                "left": 7168,
+                "top": 9384,
+                "right": 7616,
+                "bottom": 9936
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_17x17.tif",
+            "image_path": "test\\piece_17x17.tif",
+            "coordinates": {
+                "left": 7616,
+                "top": 9384,
+                "right": 8064,
+                "bottom": 9936
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_17x18.tif",
+            "image_path": "test\\piece_17x18.tif",
+            "coordinates": {
+                "left": 8064,
+                "top": 9384,
+                "right": 8512,
+                "bottom": 9936
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_17x19.tif",
+            "image_path": "test\\piece_17x19.tif",
+            "coordinates": {
+                "left": 8512,
+                "top": 9384,
+                "right": 8960,
+                "bottom": 9936
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_18x0.tif",
+            "image_path": "test\\piece_18x0.tif",
+            "coordinates": {
+                "left": 0,
+                "top": 9936,
+                "right": 448,
+                "bottom": 10488
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_18x1.tif",
+            "image_path": "test\\piece_18x1.tif",
+            "coordinates": {
+                "left": 448,
+                "top": 9936,
+                "right": 896,
+                "bottom": 10488
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_18x2.tif",
+            "image_path": "test\\piece_18x2.tif",
+            "coordinates": {
+                "left": 896,
+                "top": 9936,
+                "right": 1344,
+                "bottom": 10488
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_18x3.tif",
+            "image_path": "test\\piece_18x3.tif",
+            "coordinates": {
+                "left": 1344,
+                "top": 9936,
+                "right": 1792,
+                "bottom": 10488
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_18x4.tif",
+            "image_path": "test\\piece_18x4.tif",
+            "coordinates": {
+                "left": 1792,
+                "top": 9936,
+                "right": 2240,
+                "bottom": 10488
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_18x5.tif",
+            "image_path": "test\\piece_18x5.tif",
+            "coordinates": {
+                "left": 2240,
+                "top": 9936,
+                "right": 2688,
+                "bottom": 10488
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_18x6.tif",
+            "image_path": "test\\piece_18x6.tif",
+            "coordinates": {
+                "left": 2688,
+                "top": 9936,
+                "right": 3136,
+                "bottom": 10488
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_18x7.tif",
+            "image_path": "test\\piece_18x7.tif",
+            "coordinates": {
+                "left": 3136,
+                "top": 9936,
+                "right": 3584,
+                "bottom": 10488
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_18x8.tif",
+            "image_path": "test\\piece_18x8.tif",
+            "coordinates": {
+                "left": 3584,
+                "top": 9936,
+                "right": 4032,
+                "bottom": 10488
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_18x9.tif",
+            "image_path": "test\\piece_18x9.tif",
+            "coordinates": {
+                "left": 4032,
+                "top": 9936,
+                "right": 4480,
+                "bottom": 10488
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_18x10.tif",
+            "image_path": "test\\piece_18x10.tif",
+            "coordinates": {
+                "left": 4480,
+                "top": 9936,
+                "right": 4928,
+                "bottom": 10488
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_18x11.tif",
+            "image_path": "test\\piece_18x11.tif",
+            "coordinates": {
+                "left": 4928,
+                "top": 9936,
+                "right": 5376,
+                "bottom": 10488
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_18x12.tif",
+            "image_path": "test\\piece_18x12.tif",
+            "coordinates": {
+                "left": 5376,
+                "top": 9936,
+                "right": 5824,
+                "bottom": 10488
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_18x13.tif",
+            "image_path": "test\\piece_18x13.tif",
+            "coordinates": {
+                "left": 5824,
+                "top": 9936,
+                "right": 6272,
+                "bottom": 10488
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_18x14.tif",
+            "image_path": "test\\piece_18x14.tif",
+            "coordinates": {
+                "left": 6272,
+                "top": 9936,
+                "right": 6720,
+                "bottom": 10488
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_18x15.tif",
+            "image_path": "test\\piece_18x15.tif",
+            "coordinates": {
+                "left": 6720,
+                "top": 9936,
+                "right": 7168,
+                "bottom": 10488
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_18x16.tif",
+            "image_path": "test\\piece_18x16.tif",
+            "coordinates": {
+                "left": 7168,
+                "top": 9936,
+                "right": 7616,
+                "bottom": 10488
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_18x17.tif",
+            "image_path": "test\\piece_18x17.tif",
+            "coordinates": {
+                "left": 7616,
+                "top": 9936,
+                "right": 8064,
+                "bottom": 10488
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_18x18.tif",
+            "image_path": "test\\piece_18x18.tif",
+            "coordinates": {
+                "left": 8064,
+                "top": 9936,
+                "right": 8512,
+                "bottom": 10488
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_18x19.tif",
+            "image_path": "test\\piece_18x19.tif",
+            "coordinates": {
+                "left": 8512,
+                "top": 9936,
+                "right": 8960,
+                "bottom": 10488
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_19x0.tif",
+            "image_path": "test\\piece_19x0.tif",
+            "coordinates": {
+                "left": 0,
+                "top": 10488,
+                "right": 448,
+                "bottom": 11040
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_19x1.tif",
+            "image_path": "test\\piece_19x1.tif",
+            "coordinates": {
+                "left": 448,
+                "top": 10488,
+                "right": 896,
+                "bottom": 11040
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_19x2.tif",
+            "image_path": "test\\piece_19x2.tif",
+            "coordinates": {
+                "left": 896,
+                "top": 10488,
+                "right": 1344,
+                "bottom": 11040
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_19x3.tif",
+            "image_path": "test\\piece_19x3.tif",
+            "coordinates": {
+                "left": 1344,
+                "top": 10488,
+                "right": 1792,
+                "bottom": 11040
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_19x4.tif",
+            "image_path": "test\\piece_19x4.tif",
+            "coordinates": {
+                "left": 1792,
+                "top": 10488,
+                "right": 2240,
+                "bottom": 11040
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_19x5.tif",
+            "image_path": "test\\piece_19x5.tif",
+            "coordinates": {
+                "left": 2240,
+                "top": 10488,
+                "right": 2688,
+                "bottom": 11040
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_19x6.tif",
+            "image_path": "test\\piece_19x6.tif",
+            "coordinates": {
+                "left": 2688,
+                "top": 10488,
+                "right": 3136,
+                "bottom": 11040
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_19x7.tif",
+            "image_path": "test\\piece_19x7.tif",
+            "coordinates": {
+                "left": 3136,
+                "top": 10488,
+                "right": 3584,
+                "bottom": 11040
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_19x8.tif",
+            "image_path": "test\\piece_19x8.tif",
+            "coordinates": {
+                "left": 3584,
+                "top": 10488,
+                "right": 4032,
+                "bottom": 11040
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_19x9.tif",
+            "image_path": "test\\piece_19x9.tif",
+            "coordinates": {
+                "left": 4032,
+                "top": 10488,
+                "right": 4480,
+                "bottom": 11040
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_19x10.tif",
+            "image_path": "test\\piece_19x10.tif",
+            "coordinates": {
+                "left": 4480,
+                "top": 10488,
+                "right": 4928,
+                "bottom": 11040
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_19x11.tif",
+            "image_path": "test\\piece_19x11.tif",
+            "coordinates": {
+                "left": 4928,
+                "top": 10488,
+                "right": 5376,
+                "bottom": 11040
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_19x12.tif",
+            "image_path": "test\\piece_19x12.tif",
+            "coordinates": {
+                "left": 5376,
+                "top": 10488,
+                "right": 5824,
+                "bottom": 11040
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_19x13.tif",
+            "image_path": "test\\piece_19x13.tif",
+            "coordinates": {
+                "left": 5824,
+                "top": 10488,
+                "right": 6272,
+                "bottom": 11040
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_19x14.tif",
+            "image_path": "test\\piece_19x14.tif",
+            "coordinates": {
+                "left": 6272,
+                "top": 10488,
+                "right": 6720,
+                "bottom": 11040
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_19x15.tif",
+            "image_path": "test\\piece_19x15.tif",
+            "coordinates": {
+                "left": 6720,
+                "top": 10488,
+                "right": 7168,
+                "bottom": 11040
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_19x16.tif",
+            "image_path": "test\\piece_19x16.tif",
+            "coordinates": {
+                "left": 7168,
+                "top": 10488,
+                "right": 7616,
+                "bottom": 11040
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_19x17.tif",
+            "image_path": "test\\piece_19x17.tif",
+            "coordinates": {
+                "left": 7616,
+                "top": 10488,
+                "right": 8064,
+                "bottom": 11040
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_19x18.tif",
+            "image_path": "test\\piece_19x18.tif",
+            "coordinates": {
+                "left": 8064,
+                "top": 10488,
+                "right": 8512,
+                "bottom": 11040
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        },
+        {
+            "image_name": "piece_19x19.tif",
+            "image_path": "test\\piece_19x19.tif",
+            "coordinates": {
+                "left": 8512,
+                "top": 10488,
+                "right": 8960,
+                "bottom": 11040
+            },
+            "otsu_r_path": "",
+            "plant_counting_count": "",
+            "plant_counting_cv_count": ""
+        }
+    ]
+}

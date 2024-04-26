@@ -2,10 +2,10 @@
 
 import os
 import sys
-import MAS
+from .. import MAS
 
-sys.path.append(os.path.abspath("../Utility"))
-import general_IO as gIO
+from ..Utility import general_IO as gIO
+from . import MAS
 
 def All_Simulations(_path_input_rgb_img, _path_PreTreatment_and_FA,
                     _labelled_images = False,
@@ -29,15 +29,9 @@ def All_Simulations(_path_input_rgb_img, _path_PreTreatment_and_FA,
     # =============================================================================
     
     names_input_raw = gIO.listdir_nohidden(_path_input_rgb_img)
-<<<<<<< HEAD:MAS/Multi_Images_Simulation_v12bis.py
-    #names_input_adjusted_position_files = os.listdir(path_input_adjusted_position_files)
-    names_input_OTSU = gIO.listdir_nohidden(path_input_OTSU)
-    names_input_PLANT_FT_PRED = os.listdir(path_input_PLANT_FT_PRED)
-=======
     #
     names_input_OTSU = gIO.listdir_nohidden(path_input_OTSU)
     names_input_PLANT_FT_PRED = gIO.listdir_nohidden(path_input_PLANT_FT_PRED)
->>>>>>> Pre-Release:MAS/Multi_Images_Simulation.py
     
     # =============================================================================
     # Data Collection
@@ -67,7 +61,7 @@ def All_Simulations(_path_input_rgb_img, _path_PreTreatment_and_FA,
     # =============================================================================
     # Meta Simulation Definition
     # =============================================================================
-    
+
     MetaSimulation = MAS.MetaSimulation(meta_simu_name,
                                         path_output,
                                         names_input_raw,
@@ -93,7 +87,7 @@ def All_Simulations(_path_input_rgb_img, _path_PreTreatment_and_FA,
         MetaSimulation.Launch_Meta_Simu_NoLabels(
                                     _coerced_X = True,
                                     _coerced_Y = False,
-                                    _analyse_and_remove_Rows = True,
+                                    _analyse_and_remove_Rows = False,
                                     _rows_edges_exploration = True)
     
 if (__name__=="__main__"):
